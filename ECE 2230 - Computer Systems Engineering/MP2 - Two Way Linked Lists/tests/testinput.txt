@@ -1,0 +1,1218 @@
+#####################################################################
+#####################################################################
+Test 1: Show that PRINT, STATS, REMOVE, and REMOVEALL work with no items in the list.
+STATS
+PRINT
+REMOVE 1111
+REMOVEALL
+
+
+
+
+#####################################################################
+#####################################################################
+Test 2: Show that PRINT, STATS, REMOVE, and REMOVEALL work with 1 through 5 items in the list. 
+
+
+ADD 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+STATS
+PRINT
+
+
+############################
+Remove one list item with REMOVE
+
+
+ADD 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+
+REMOVE 1111
+
+STATS
+PRINT
+
+
+############################
+Remove one list item with REMOVEALL
+
+
+ADD 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+STATS
+PRINT
+
+REMOVEALL
+
+STATS
+PRINT
+
+############################
+Remove two list items with REMOVE
+
+
+ADD 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+ADD 2222
+200
+202
+T
+none
+b
+2.4
+2
+2.0
+20
+
+
+STATS
+PRINT
+
+REMOVE 1111
+
+STATS
+PRINT
+
+REMOVE 2222
+
+STATS
+PRINT
+
+############################
+Remove two list items with REMOVEALL
+
+
+ADD 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+ADD 2222
+200
+202
+T
+none
+b
+2.4
+2
+2.0
+20
+
+
+STATS
+PRINT
+
+REMOVEALL
+
+STATS
+PRINT
+
+
+############################
+Remove three list items with REMOVE
+
+
+ADD 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+ADD 2222
+200
+202
+T
+none
+b
+2.4
+2
+2.0
+20
+
+ADD 3333
+300
+303
+T
+none
+b
+2.4
+3
+3.0
+30
+
+
+STATS
+PRINT
+
+REMOVE 1111
+
+STATS
+PRINT
+
+REMOVE 2222
+
+STATS
+PRINT
+
+REMOVE 3333
+
+STATS
+PRINT
+
+############################
+Remove three list items with REMOVEALL
+
+
+ADD 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+ADD 2222
+200
+202
+T
+none
+b
+2.4
+2
+2.0
+20
+
+ADD 3333
+300
+303
+T
+none
+b
+2.4
+3
+3.0
+30
+
+STATS
+PRINT
+
+REMOVEALL
+
+STATS
+PRINT
+
+
+############################
+Remove four list items with REMOVE
+
+
+ADD 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+ADD 2222
+200
+202
+T
+none
+b
+2.4
+2
+2.0
+20
+
+ADD 3333
+300
+303
+T
+none
+b
+2.4
+3
+3.0
+30
+
+ADD 4444
+400
+404
+T
+none
+b
+2.4
+4
+4.0
+40
+
+
+STATS
+PRINT
+
+REMOVE 1111
+
+STATS
+PRINT
+
+REMOVE 2222
+
+STATS
+PRINT
+
+REMOVE 3333
+
+STATS
+PRINT
+
+REMOVE 4444
+
+STATS
+PRINT
+
+############################
+Remove four list items with REMOVEALL
+
+
+ADD 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+ADD 2222
+200
+202
+T
+none
+b
+2.4
+2
+2.0
+20
+
+ADD 3333
+300
+303
+T
+none
+b
+2.4
+3
+3.0
+30
+
+ADD 4444
+400
+404
+T
+none
+b
+2.4
+4
+4.0
+40
+
+STATS
+PRINT
+
+REMOVEALL
+
+STATS
+PRINT
+
+
+############################
+Remove five list items with REMOVE
+
+
+ADD 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+ADD 2222
+200
+202
+T
+none
+b
+2.4
+2
+2.0
+20
+
+ADD 3333
+300
+303
+T
+none
+b
+2.4
+3
+3.0
+30
+
+ADD 4444
+400
+404
+T
+none
+b
+2.4
+4
+4.0
+40
+
+ADD 5555
+500
+505
+T
+none
+b
+2.4
+5
+5.0
+50
+
+
+STATS
+PRINT
+
+REMOVE 1111
+
+STATS
+PRINT
+
+REMOVE 2222
+
+STATS
+PRINT
+
+REMOVE 3333
+
+STATS
+PRINT
+
+REMOVE 4444
+
+STATS
+PRINT
+
+REMOVE 5555
+
+STATS
+PRINT
+
+############################
+Remove five list items with REMOVEALL
+
+
+ADD 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+ADD 2222
+200
+202
+T
+none
+b
+2.4
+2
+2.0
+20
+
+ADD 3333
+300
+303
+T
+none
+b
+2.4
+3
+3.0
+30
+
+ADD 4444
+400
+404
+T
+none
+b
+2.4
+4
+4.0
+40
+
+ADD 5555
+500
+505
+T
+none
+b
+2.4
+5
+5.0
+50
+
+STATS
+PRINT
+
+REMOVEALL
+
+STATS
+PRINT
+
+
+
+
+
+#####################################################################
+#####################################################################
+Test 3: Show that the INC, DEC, and internal sorting functions are working properly.
+
+
+ADD 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+ADD 2222
+200
+202
+T
+none
+b
+2.4
+2
+2.0
+20
+
+ADD 3333
+300
+303
+T
+none
+b
+2.4
+3
+3.0
+30
+
+ADD 4444
+400
+404
+T
+none
+b
+2.4
+4
+4.0
+40
+
+ADD 5555
+500
+505
+T
+none
+b
+2.4
+5
+5.0
+50
+
+STATS
+PRINT
+
+INC 4444
+INC 4444
+INC 4444
+
+PRINT
+
+INC 3333
+INC 3333
+
+PRINT
+
+INC 3333
+
+PRINT
+
+INC 2222
+INC 2222
+
+PRINT
+
+INC 2222
+
+PRINT
+
+INC 1111
+INC 1111
+INC 1111
+INC 1111
+INC 1111
+
+PRINT
+
+INC 5555
+INC 5555
+INC 5555
+INC 5555
+INC 5555
+INC 5555
+INC 5555
+
+PRINT
+
+DEC 5555
+DEC 5555
+
+PRINT
+
+DEC 5555
+
+PRINT
+
+DEC 5555
+
+PRINT
+
+DEC 1111
+
+PRINT
+
+DEC 1111
+
+PRINT
+
+DEC 1111
+
+PRINT
+
+DEC 1111
+DEC 1111
+DEC 1111
+
+PRINT
+
+DEC 2222
+DEC 2222
+DEC 2222
+DEC 2222
+
+PRINT
+
+REMOVEALL
+
+
+
+
+#####################################################################
+#####################################################################
+Test 4: Show that FIND works and displays the correct mobile count values.
+
+STATS
+PRINT
+
+FIND 1111
+FIND 2222
+FIND 3333
+FIND 4444
+FIND 5555
+
+ADD 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+ADD 2222
+200
+202
+T
+none
+b
+2.4
+2
+2.0
+20
+
+ADD 3333
+300
+303
+T
+none
+b
+2.4
+3
+3.0
+30
+
+ADD 4444
+400
+404
+T
+none
+b
+2.4
+4
+4.0
+40
+
+ADD 5555
+500
+505
+T
+none
+b
+2.4
+5
+5.0
+50
+
+FIND 1111
+FIND 2222
+FIND 3333
+FIND 4444
+FIND 5555
+
+INC 1111
+INC 1111
+INC 1111
+INC 1111
+INC 1111
+
+INC 2222
+INC 2222
+INC 2222
+INC 2222
+INC 2222
+INC 2222
+INC 2222
+INC 2222
+INC 2222
+INC 2222
+INC 2222
+INC 2222
+
+INC 3333
+INC 3333
+INC 3333
+INC 3333
+INC 3333
+
+INC 4444
+INC 4444
+INC 4444
+INC 4444
+INC 4444
+INC 4444
+INC 4444
+INC 4444
+INC 4444
+INC 4444
+INC 4444
+INC 4444
+
+INC 5555
+INC 5555
+INC 5555
+INC 5555
+INC 5555
+INC 5555
+INC 5555
+INC 5555
+INC 5555
+INC 5555
+INC 5555
+INC 5555
+INC 5555
+
+PRINT
+
+FIND 1111
+FIND 2222
+FIND 3333
+FIND 4444
+FIND 5555
+
+
+
+
+#####################################################################
+#####################################################################
+Test 5: Show that ADD handles correctly when the list is full or when list item already exists.
+
+STATS
+PRINT
+
+ADD 6666
+600
+606
+T
+none
+a
+2.4
+6
+6.0
+60
+
+ADD 7777
+700
+707
+T
+none
+a
+2.4
+7
+7.0
+70
+
+FIND 6666
+FIND 7777
+
+REMOVE 6666
+REMOVE 7777
+
+STATS
+PRINT
+
+
+REMOVE 5555
+
+STATS
+PRINT
+
+
+
+
+ADD 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+ADD 2222
+200
+202
+T
+none
+b
+2.4
+2
+2.0
+20
+
+ADD 3333
+300
+303
+T
+none
+b
+2.4
+3
+3.0
+30
+
+ADD 4444
+400
+404
+T
+none
+b
+2.4
+4
+4.0
+40
+
+
+STATS
+PRINT
+
+REMOVEALL
+
+#####################################################################
+#####################################################################
+Test 6: JOINQ AND MOVEQTOL with empty list, partially full list, and full list
+
+
+STATS
+PRINT
+PRINTQ
+
+JOINQ 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+STATS
+PRINT
+PRINTQ
+
+JOINQ 2222
+200
+202
+T
+none
+b
+2.4
+2
+2.0
+20
+
+STATS
+PRINT
+PRINTQ
+
+JOINQ 3333
+300
+303
+T
+none
+b
+2.4
+3
+3.0
+30
+
+STATS
+PRINT
+PRINTQ
+
+JOINQ 4444
+400
+404
+T
+none
+b
+2.4
+4
+4.0
+40
+
+STATS
+PRINT
+PRINTQ
+
+JOINQ 5555
+500
+505
+T
+none
+b
+2.4
+5
+5.0
+50
+
+STATS
+PRINT
+PRINTQ
+
+JOINQ 6666
+600
+606
+T
+none
+b
+2.4
+6
+6.0
+60
+
+STATS
+PRINT
+PRINTQ
+
+JOINQ 7777
+700
+707
+T
+none
+b
+2.4
+7
+7.0
+70
+
+STATS
+PRINT
+PRINTQ
+
+MOVEQTOL
+
+STATS
+PRINT
+PRINTQ
+
+
+MOVEQTOL
+
+STATS
+PRINT
+PRINTQ
+
+
+MOVEQTOL
+
+STATS
+PRINT
+PRINTQ
+
+
+MOVEQTOL
+
+STATS
+PRINT
+PRINTQ
+
+
+MOVEQTOL
+
+STATS
+PRINT
+PRINTQ
+
+
+MOVEQTOL
+
+STATS
+PRINT
+PRINTQ
+
+REMOVEALL
+
+STATS
+PRINT
+PRINTQ
+
+MOVEQTOL
+
+STATS
+PRINT
+PRINTQ
+
+REMOVEALL
+
+STATS
+PRINT
+PRINTQ
+
+#####################################################################
+#####################################################################
+Test 7: Show sorting function works with MOVEQTOL
+
+JOINQ 1111
+100
+101
+T
+none
+a
+2.4
+1
+1.0
+10
+
+JOINQ 5555
+500
+505
+T
+none
+b
+2.4
+5
+5.0
+50
+
+JOINQ 7777
+700
+707
+T
+none
+b
+2.4
+7
+7.0
+70
+
+JOINQ 2222
+200
+202
+T
+none
+b
+2.4
+2
+2.0
+20
+
+JOINQ 4444
+400
+404
+T
+none
+b
+2.4
+4
+4.0
+40
+
+JOINQ 6666
+600
+606
+T
+none
+b
+2.4
+6
+6.0
+60
+
+JOINQ 3333
+300
+303
+T
+none
+b
+2.4
+3
+3.0
+30
+
+STATS
+PRINT
+PRINTQ
+
+MOVEQTOL
+MOVEQTOL
+MOVEQTOL
+
+STATS
+PRINT
+PRINTQ
+
+MOVEQTOL
+
+STATS
+PRINT
+PRINTQ
+
+MOVEQTOL
+
+STATS
+PRINT
+PRINTQ
+
+REMOVE 1111
+
+MOVEQTOL
+
+STATS
+PRINT
+PRINTQ
+
+REMOVE 7777
+
+STATS
+PRINT
+PRINTQ
+
+QUIT
+

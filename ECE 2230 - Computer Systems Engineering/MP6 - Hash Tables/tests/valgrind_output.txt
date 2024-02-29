@@ -1,0 +1,129 @@
+==87663== Memcheck, a memory error detector
+==87663== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==87663== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==87663== Command: ./lab6 -e -m 65537 -h linear
+==87663== 
+Table size (65537), load factor (0.9)
+Open addressing with linear probe sequence
+Seed: 12042023
+
+----- Equilibrium test driver -----
+  Trials: 50000
+  Build table with 58983 random keys
+    The average number of probes for a successful search = 4.77955
+  Keys added (24955), removed (25041) new size should be (58897) and is (58897)
+  After exercise, time=713.127 
+  successful searches during exercise=9.82739, trials=25045
+  unsuccessful searches during exercise=167.055, trials=24955
+  After retrieve experiment, time=2000.77
+  New load factor = 0.898683
+  Percent empty locations marked deleted = 88.9006
+   Measured avg probes for successful search=12.0151, trials=58897
+   Measured avg probes for unsuccessful search=314.229, trials=49997
+    Do deletions increase avg number of probes?
+--- Linear probe sequence performance formulas ---
+    Expected probes for successful search 5.43502
+    Expected probes for unsuccessful search 49.2087
+Found 30 of the class keys. Did not find 13
+  Rehash table
+Found 30 of the class keys. Did not find 13
+  After rehash, time=448.786
+   Measured avg probes for successful search=5.43605, trials=58897
+   Measured avg probes for unsuccessful search=46.0539, trials=49998
+----- End of equilibrium test -----
+
+==87663== 
+==87663== HEAP SUMMARY:
+==87663==     in use at exit: 0 bytes in 0 blocks
+==87663==   total heap usage: 326,791 allocs, 326,791 frees, 5,570,575 bytes allocated
+==87663== 
+==87663== All heap blocks were freed -- no leaks are possible
+==87663== 
+==87663== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==87664== Memcheck, a memory error detector
+==87664== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==87664== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==87664== Command: ./lab6 -e -m 65537 -h double
+==87664== 
+Table size (65537), load factor (0.9)
+Open addressing with double hashing
+Seed: 12042023
+
+----- Equilibrium test driver -----
+  Trials: 50000
+  Build table with 58983 random keys
+    The average number of probes for a successful search = 1.57383
+  Keys added (24848), removed (25149) new size should be (58682) and is (58682)
+  After exercise, time=643.191 
+  successful searches during exercise=3.84951, trials=25152
+  unsuccessful searches during exercise=108.173, trials=24848
+  After retrieve experiment, time=3314.53
+  New load factor = 0.895403
+  Percent empty locations marked deleted = 97.6368
+   Measured avg probes for successful search=5.10041, trials=58682
+   Measured avg probes for unsuccessful search=402.307, trials=49999
+    Do deletions increase avg number of probes?
+--- Double hashing performance formulas ---
+    Expected probes for successful search 2.52136
+    Expected probes for unsuccessful search 9.56047
+Found 27 of the class keys. Did not find 16
+  Rehash table
+Found 27 of the class keys. Did not find 16
+  After rehash, time=389.138
+   Measured avg probes for successful search=2.52082, trials=58682
+   Measured avg probes for unsuccessful search=8.62186, trials=49995
+----- End of equilibrium test -----
+
+==87664== 
+==87664== HEAP SUMMARY:
+==87664==     in use at exit: 0 bytes in 0 blocks
+==87664==   total heap usage: 326,360 allocs, 326,360 frees, 5,567,192 bytes allocated
+==87664== 
+==87664== All heap blocks were freed -- no leaks are possible
+==87664== 
+==87664== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==87665== Memcheck, a memory error detector
+==87665== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==87665== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==87665== Command: ./lab6 -e -m 65537 -h chain
+==87665== 
+Table size (65537), load factor (0.9)
+Separate chaining
+Seed: 12042023
+
+----- Equilibrium test driver -----
+  Trials: 50000
+  Build table with 58983 random keys
+    The average number of probes for a successful search = 0.449791
+  Keys added (24993), removed (25005) new size should be (58971) and is (58971)
+  After exercise, time=237.515 
+  successful searches during exercise=1.00008, trials=25007
+  unsuccessful searches during exercise=0.903173, trials=24993
+  After retrieve experiment, time=265.048
+  New load factor = 0.899812
+  Percent empty locations marked deleted = 0
+   Measured avg probes for successful search=1.57664, trials=58971
+     ** This measure is biased.  See comments
+
+   Measured avg probes for unsuccessful search=0.909356, trials=49998
+    Do deletions increase avg number of probes?
+--- Separate chaining performance formulas ---
+    Expected probes for successful search 1.44991
+    Expected probes for unsuccessful search 0.899812
+Found 31 of the class keys. Did not find 12
+  Rehash table
+Found 31 of the class keys. Did not find 12
+  After rehash, time=264.894
+   Measured avg probes for successful search=1.57664, trials=58971
+   Measured avg probes for unsuccessful search=0.896814, trials=49997
+----- End of equilibrium test -----
+
+==87665== 
+==87665== HEAP SUMMARY:
+==87665==     in use at exit: 0 bytes in 0 blocks
+==87665==   total heap usage: 469,884 allocs, 469,884 frees, 6,904,890 bytes allocated
+==87665== 
+==87665== All heap blocks were freed -- no leaks are possible
+==87665== 
+==87665== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+

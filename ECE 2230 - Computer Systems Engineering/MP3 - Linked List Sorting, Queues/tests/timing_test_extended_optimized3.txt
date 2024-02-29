@@ -1,0 +1,10 @@
+The date today is Sun Oct  1 01:19:25 PM EDT 2023		
+eth merge sort with random list		
+20000000	36741.163000	4
+mc merge sort with random list		
+20000000	36029.561000	4
+merge sort with ascending list		
+20000000	11867.527000	4
+merge sort with descending list		
+20000000	11837.112000	4
+end		

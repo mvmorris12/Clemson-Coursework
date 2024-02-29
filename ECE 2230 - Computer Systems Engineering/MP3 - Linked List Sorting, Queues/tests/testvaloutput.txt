@@ -1,0 +1,13 @@
+==29301== Memcheck, a memory error detector
+==29301== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==29301== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==29301== Command: ./lab2 5
+==29301== 
+==29301== 
+==29301== HEAP SUMMARY:
+==29301==     in use at exit: 0 bytes in 0 blocks
+==29301==   total heap usage: 331 allocs, 331 frees, 19,724 bytes allocated
+==29301== 
+==29301== All heap blocks were freed -- no leaks are possible
+==29301== 
+==29301== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

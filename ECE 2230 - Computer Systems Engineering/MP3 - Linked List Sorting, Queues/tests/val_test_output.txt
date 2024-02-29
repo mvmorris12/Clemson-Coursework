@@ -1,0 +1,13 @@
+==12622== Memcheck, a memory error detector
+==12622== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12622== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==12622== Command: ./lab3 30
+==12622== 
+==12622== 
+==12622== HEAP SUMMARY:
+==12622==     in use at exit: 0 bytes in 0 blocks
+==12622==   total heap usage: 1,073 allocs, 1,073 frees, 38,716 bytes allocated
+==12622== 
+==12622== All heap blocks were freed -- no leaks are possible
+==12622== 
+==12622== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

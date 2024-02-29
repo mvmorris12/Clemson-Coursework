@@ -1,0 +1,600 @@
+0	1.548000	1
+0	0.026000	1
+0	0.381000	2
+0	0.017000	2
+0	0.311000	3
+0	0.014000	3
+0	0.269000	4
+0	0.010000	4
+1	1.198000	1
+1	0.018000	1
+1	0.013000	2
+1	0.013000	2
+1	0.012000	3
+1	0.014000	3
+1	0.011000	4
+1	0.010000	4
+2	1.079000	1
+2	0.346000	1
+2	0.393000	2
+2	0.105000	2
+2	0.248000	3
+2	0.017000	3
+2	2.091000	4
+2	0.034000	4
+3	0.023000	1
+3	0.090000	1
+3	0.113000	2
+3	0.016000	2
+3	0.015000	3
+3	0.014000	3
+3	0.033000	4
+3	0.041000	4
+4	0.021000	1
+4	0.021000	1
+4	0.024000	2
+4	0.017000	2
+4	0.015000	3
+4	0.014000	3
+4	0.040000	4
+4	0.047000	4
+5	0.023000	1
+5	0.023000	1
+5	0.076000	2
+5	0.020000	2
+5	0.015000	3
+5	0.015000	3
+5	0.513000	4
+5	0.058000	4
+Moved 5
+Moved 10
+Moved 12
+Moved 13
+Moved 19
+Removed 5 stations
+Queue is empty
+
+Queue has 20 records
+0: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+20	0.051000	1
+Queue has 20 records
+0: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+Moved 9
+Moved 17
+Moved 4
+Moved 1
+Moved 7
+Moved 6
+Moved 15
+Moved 11
+Moved 20
+Moved 18
+Moved 8
+Moved 16
+Moved 2
+Moved 3
+Moved 14
+Moved 10
+Moved 5
+Moved 12
+Moved 13
+Moved 19
+Removed 20 stations
+Queue is empty
+
+Queue has 20 records
+0: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+20	0.198000	1
+Queue has 20 records
+0: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+Moved 1
+Moved 2
+Moved 3
+Moved 4
+Moved 5
+Moved 6
+Moved 7
+Moved 8
+Moved 9
+Moved 10
+Moved 11
+Moved 12
+Moved 13
+Moved 14
+Moved 15
+Moved 16
+Moved 17
+Moved 18
+Moved 19
+Moved 20
+Removed 20 stations
+Queue is empty
+
+Queue has 20 records
+0: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+20	0.132000	2
+Queue has 20 records
+0: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+Moved 9
+Moved 17
+Moved 4
+Moved 1
+Moved 7
+Moved 6
+Moved 15
+Moved 11
+Moved 20
+Moved 18
+Moved 8
+Moved 16
+Moved 2
+Moved 3
+Moved 14
+Moved 10
+Moved 5
+Moved 12
+Moved 13
+Moved 19
+Removed 20 stations
+Queue is empty
+
+Queue has 20 records
+0: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+20	0.054000	2
+Queue has 20 records
+0: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+Moved 1
+Moved 2
+Moved 3
+Moved 4
+Moved 5
+Moved 6
+Moved 7
+Moved 8
+Moved 9
+Moved 10
+Moved 11
+Moved 12
+Moved 13
+Moved 14
+Moved 15
+Moved 16
+Moved 17
+Moved 18
+Moved 19
+Moved 20
+Removed 20 stations
+Queue is empty
+
+Queue has 20 records
+0: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+20	0.036000	3
+Queue has 20 records
+0: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+Moved 9
+Moved 17
+Moved 4
+Moved 1
+Moved 7
+Moved 6
+Moved 15
+Moved 11
+Moved 20
+Moved 18
+Moved 8
+Moved 16
+Moved 2
+Moved 3
+Moved 14
+Moved 10
+Moved 5
+Moved 12
+Moved 13
+Moved 19
+Removed 20 stations
+Queue is empty
+
+Queue has 20 records
+0: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+20	0.040000	3
+Queue has 20 records
+0: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+Moved 1
+Moved 2
+Moved 3
+Moved 4
+Moved 5
+Moved 6
+Moved 7
+Moved 8
+Moved 9
+Moved 10
+Moved 11
+Moved 12
+Moved 13
+Moved 14
+Moved 15
+Moved 16
+Moved 17
+Moved 18
+Moved 19
+Moved 20
+Removed 20 stations
+Queue is empty
+
+Queue has 20 records
+0: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+20	0.295000	4
+Queue has 20 records
+0: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+Moved 9
+Moved 17
+Moved 4
+Moved 1
+Moved 7
+Moved 6
+Moved 15
+Moved 11
+Moved 20
+Moved 18
+Moved 8
+Moved 16
+Moved 2
+Moved 3
+Moved 14
+Moved 10
+Moved 5
+Moved 12
+Moved 13
+Moved 19
+Removed 20 stations
+Queue is empty
+
+Queue has 20 records
+0: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+20	0.414000	4
+Queue has 20 records
+0: mc: 17,eth: 1, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+1: mc: 8,eth: 2, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+2: mc: 7,eth: 3, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+3: mc: 18,eth: 4, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+4: mc: 4,eth: 5, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+5: mc: 15,eth: 6, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+6: mc: 16,eth: 7, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+7: mc: 10,eth: 8, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+8: mc: 20,eth: 9, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+9: mc: 5,eth: 10, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+10: mc: 13,eth: 11, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+11: mc: 3,eth: 12, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+12: mc: 2,eth: 13, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+13: mc: 6,eth: 14, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+14: mc: 14,eth: 15, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+15: mc: 9,eth: 16, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+16: mc: 19,eth: 17, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+17: mc: 11,eth: 18, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+18: mc: 1,eth: 19, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+19: mc: 12,eth: 20, IP: 0, Loc: 0, Auth: F, Pri: none, L: a, B: 0, C: 0, R: 0 Time: 0
+
+Moved 1
+Moved 2
+Moved 3
+Moved 4
+Moved 5
+Moved 6
+Moved 7
+Moved 8
+Moved 9
+Moved 10
+Moved 11
+Moved 12
+Moved 13
+Moved 14
+Moved 15
+Moved 16
+Moved 17
+Moved 18
+Moved 19
+Moved 20
+Removed 20 stations
+Queue is empty
+

@@ -1,0 +1,3534 @@
+Table size (65537), load factor (0.9)
+Open addressing with linear probe sequence
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 58983 random keys
+    The average number of probes for a successful search = 4.77955
+		 FOUND with 39 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 82 probes (this is rare!)
+    Avg probes for successful search = 40.6667 measured with 3 trials
+    Avg probes for unsuccessful search = 55.9097 measured with 49997 trials
+--- Linear probe sequence performance formulas ---
+    Expected probes for successful search 5.5
+    Expected probes for unsuccessful search 50.5
+Start looking for class keys
+    Avg probes for successful search = 6.53488 measured with 43 trials
+----- End of access driver -----
+
+Table size (65537), load factor (0.9)
+Open addressing with double hashing
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 58983 random keys
+    The average number of probes for a successful search = 1.57383
+		 FOUND with 8 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 5 probes (this is rare!)
+    Avg probes for successful search = 4.66667 measured with 3 trials
+    Avg probes for unsuccessful search = 8.99742 measured with 49997 trials
+--- Double hashing performance formulas ---
+    Expected probes for successful search 2.55843
+    Expected probes for unsuccessful search 10
+Start looking for class keys
+    Avg probes for successful search = 2.65116 measured with 43 trials
+----- End of access driver -----
+
+Table size (65537), load factor (0.9)
+Separate chaining
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 58983 random keys
+    The average number of probes for a successful search = 0.449791
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 3 probes (this is rare!)
+    Avg probes for successful search = 2 measured with 3 trials
+    Avg probes for unsuccessful search = 0.897214 measured with 49997 trials
+--- Separate chaining performance formulas ---
+    Expected probes for successful search 1.45
+    Expected probes for unsuccessful search 0.9
+Start looking for class keys
+    Avg probes for successful search = 1.72093 measured with 43 trials
+----- End of access driver -----
+
+Table size (65537), load factor (0.9)
+Open addressing with linear probe sequence
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 58983 sequential keys
+    The average number of probes for a successful search = 2128.35
+    Avg probes for unsuccessful search = 10227.3 measured with 50000 trials
+Start looking for class keys
+    Avg probes for unsuccessful search = 9942.19 measured with 43 trials
+----- End of access driver -----
+
+Table size (65537), load factor (0.9)
+Open addressing with double hashing
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 58983 sequential keys
+    The average number of probes for a successful search = 1.85299
+    Avg probes for unsuccessful search = 8.9456 measured with 50000 trials
+Start looking for class keys
+    Avg probes for unsuccessful search = 8.39535 measured with 43 trials
+----- End of access driver -----
+
+Table size (65537), load factor (0.9)
+Separate chaining
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 58983 sequential keys
+    The average number of probes for a successful search = 0.29695
+    Avg probes for unsuccessful search = 0.90054 measured with 50000 trials
+Start looking for class keys
+    Avg probes for unsuccessful search = 0.953488 measured with 43 trials
+----- End of access driver -----
+
+Table size (23), load factor (0.9)
+Open addressing with linear probe sequence
+Seed: 12042023
+
+----- Rehash driver -----
+0: about to insert agpatel at position 17
+1: about to insert aorourk at position 13
+2: about to insert blaisef at position 14
+3: about to insert cabrech at position 5
+4: about to insert camden8 at position 19
+5: about to insert cbelli at position 20
+6: about to insert cetuck at position 16
+7: about to insert cfkowal at position 12
+8: about to insert cgs5 at position 11
+9: about to insert cjmtchl at position 20
+10: about to insert dbsilva at position 16
+11: about to insert dmcamp at position 6
+12: about to insert dyi at position 22
+13: about to insert edsumne at position 20
+14: about to insert elmitch at position 19
+15: about to insert girons at position 5
+16: about to insert gmoore4 at position 12
+17: about to insert gvitell at position 2
+18: about to insert hjpower at position 0
+19: about to insert hraviva at position 0
+20: about to insert jagarwa at position 16
+21: about to insert jbowma3 at position 0
+
+full table, last entry empty
+T->oa[0] hjpower
+T->oa[1] ∅
+T->oa[2] gvitell
+T->oa[3] jbowma3
+T->oa[4] girons
+T->oa[5] cabrech
+T->oa[6] dmcamp
+T->oa[7] jagarwa
+T->oa[8] gmoore4
+T->oa[9] elmitch
+T->oa[10] edsumne
+T->oa[11] cgs5
+T->oa[12] cfkowal
+T->oa[13] aorourk
+T->oa[14] blaisef
+T->oa[15] dbsilva
+T->oa[16] cetuck
+T->oa[17] agpatel
+T->oa[18] cjmtchl
+T->oa[19] camden8
+T->oa[20] cbelli
+T->oa[21] hraviva
+T->oa[22] dyi
+22 jbpage
+0: about to retrieve and then replace agpatel
+1: about to retrieve and then replace aorourk
+2: about to retrieve and then replace blaisef
+3: about to retrieve and then replace cabrech
+4: about to retrieve and then replace camden8
+5: about to retrieve and then replace cbelli
+6: about to retrieve and then replace cetuck
+7: about to retrieve and then replace cfkowal
+8: about to retrieve and then replace cgs5
+9: about to retrieve and then replace cjmtchl
+10: about to retrieve and then replace dbsilva
+11: about to retrieve and then replace dmcamp
+12: about to retrieve and then replace dyi
+13: about to retrieve and then replace edsumne
+14: about to retrieve and then replace elmitch
+15: about to retrieve and then replace girons
+16: about to retrieve and then replace gmoore4
+17: about to retrieve and then replace gvitell
+18: about to retrieve and then replace hjpower
+19: about to retrieve and then replace hraviva
+20: about to retrieve and then replace jagarwa
+21: about to retrieve and then replace jbowma3
+about to delete aorourk
+
+table should have one empty and one delete positions
+T->oa[0] hjpower
+T->oa[1] ∅
+T->oa[2] gvitell
+T->oa[3] jbowma3
+T->oa[4] girons
+T->oa[5] cabrech
+T->oa[6] dmcamp
+T->oa[7] jagarwa
+T->oa[8] gmoore4
+T->oa[9] elmitch
+T->oa[10] edsumne
+T->oa[11] cgs5
+T->oa[12] cfkowal
+T->oa[13] --del--
+T->oa[14] blaisef
+T->oa[15] dbsilva
+T->oa[16] cetuck
+T->oa[17] agpatel
+T->oa[18] cjmtchl
+T->oa[19] camden8
+T->oa[20] cbelli
+T->oa[21] hraviva
+T->oa[22] dyi
+
+ about to insert harlanr at 22
+
+ after clearing out all but two keys
+T->oa[0] --del--
+T->oa[1] ∅
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] --del--
+T->oa[6] --del--
+T->oa[7] --del--
+T->oa[8] --del--
+T->oa[9] --del--
+T->oa[10] --del--
+T->oa[11] --del--
+T->oa[12] --del--
+T->oa[13] harlanr
+T->oa[14] --del--
+T->oa[15] --del--
+T->oa[16] --del--
+T->oa[17] agpatel
+T->oa[18] --del--
+T->oa[19] --del--
+T->oa[20] --del--
+T->oa[21] --del--
+T->oa[22] --del--
+
+ about to insert 'abcdefg' at 20
+
+ after inserting into delete or empty position 
+T->oa[0] --del--
+T->oa[1] ∅
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] --del--
+T->oa[6] --del--
+T->oa[7] --del--
+T->oa[8] --del--
+T->oa[9] --del--
+T->oa[10] --del--
+T->oa[11] --del--
+T->oa[12] --del--
+T->oa[13] harlanr
+T->oa[14] --del--
+T->oa[15] --del--
+T->oa[16] --del--
+T->oa[17] agpatel
+T->oa[18] --del--
+T->oa[19] --del--
+T->oa[20] abcdefg
+T->oa[21] --del--
+T->oa[22] --del--
+
+ about to search for 'aaaaaaa' at 5
+
+ verify 5 items in table before rehash 
+T->oa[0] --del--
+T->oa[1] ∅
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] cabrech
+T->oa[6] --del--
+T->oa[7] --del--
+T->oa[8] --del--
+T->oa[9] --del--
+T->oa[10] --del--
+T->oa[11] --del--
+T->oa[12] --del--
+T->oa[13] harlanr
+T->oa[14] blaisef
+T->oa[15] --del--
+T->oa[16] --del--
+T->oa[17] agpatel
+T->oa[18] --del--
+T->oa[19] --del--
+T->oa[20] abcdefg
+T->oa[21] --del--
+T->oa[22] --del--
+
+table after rehash with 5 items
+table size: 23
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] ∅
+T->oa[3] ∅
+T->oa[4] ∅
+T->oa[5] cabrech
+T->oa[6] ∅
+T->oa[7] ∅
+T->oa[8] ∅
+T->oa[9] ∅
+T->oa[10] ∅
+T->oa[11] ∅
+T->oa[12] ∅
+T->oa[13] ∅
+T->oa[14] blaisef
+T->oa[15] ∅
+T->oa[16] ∅
+T->oa[17] agpatel
+T->oa[18] ∅
+T->oa[19] ∅
+T->oa[20] abcdefg
+T->oa[21] ∅
+T->oa[22] harlanr
+
+after increase table to 46 with 5 items
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] ∅
+T->oa[3] ∅
+T->oa[4] ∅
+T->oa[5] ∅
+T->oa[6] ∅
+T->oa[7] ∅
+T->oa[8] ∅
+T->oa[9] ∅
+T->oa[10] ∅
+T->oa[11] ∅
+T->oa[12] ∅
+T->oa[13] ∅
+T->oa[14] blaisef
+T->oa[15] ∅
+T->oa[16] ∅
+T->oa[17] ∅
+T->oa[18] ∅
+T->oa[19] ∅
+T->oa[20] abcdefg
+T->oa[21] ∅
+T->oa[22] harlanr
+T->oa[23] ∅
+T->oa[24] ∅
+T->oa[25] ∅
+T->oa[26] ∅
+T->oa[27] ∅
+T->oa[28] cabrech
+T->oa[29] ∅
+T->oa[30] ∅
+T->oa[31] ∅
+T->oa[32] ∅
+T->oa[33] ∅
+T->oa[34] ∅
+T->oa[35] ∅
+T->oa[36] ∅
+T->oa[37] ∅
+T->oa[38] ∅
+T->oa[39] ∅
+T->oa[40] agpatel
+T->oa[41] ∅
+T->oa[42] ∅
+T->oa[43] ∅
+T->oa[44] ∅
+T->oa[45] ∅
+
+after larger table filled
+T->oa[0] ijuf55Z
+T->oa[1] scb87wgZ
+T->oa[2] sicwxhdZ
+T->oa[3] ioc2l0dZ
+T->oa[4] ljo4rZ
+T->oa[5] ymfe1eZ
+T->oa[6] nuudi1pZ
+T->oa[7] inttshmZ
+T->oa[8] wyz75dlZ
+T->oa[9] trv39p1Z
+T->oa[10] atuc9d2Z
+T->oa[11] ∅
+T->oa[12] yos431Z
+T->oa[13] gvf4boZ
+T->oa[14] blaisef
+T->oa[15] xec2f92Z
+T->oa[16] vvm31m4Z
+T->oa[17] ynxr3wxZ
+T->oa[18] qgogm88Z
+T->oa[19] hbd4677Z
+T->oa[20] abcdefg
+T->oa[21] nzt18qdZ
+T->oa[22] harlanr
+T->oa[23] osj0o1eZ
+T->oa[24] ixtspxqZ
+T->oa[25] cas70a3Z
+T->oa[26] vuyz379Z
+T->oa[27] wnxk809Z
+T->oa[28] cabrech
+T->oa[29] qkt0z5Z
+T->oa[30] eig7hp1Z
+T->oa[31] qtg50a9Z
+T->oa[32] cfqy87pZ
+T->oa[33] tzs7d3Z
+T->oa[34] rdtsk11Z
+T->oa[35] nzzaszZ
+T->oa[36] rbh4x1mZ
+T->oa[37] lwre4fqZ
+T->oa[38] bish02Z
+T->oa[39] fmlbe9Z
+T->oa[40] agpatel
+T->oa[41] jumt26fZ
+T->oa[42] fgie974Z
+T->oa[43] fmtih10Z
+T->oa[44] ghbhk2Z
+T->oa[45] aqw5353Z
+----- Passed rehash driver -----
+
+Table size (23), load factor (0.9)
+Open addressing with double hashing
+Seed: 12042023
+
+----- Rehash driver -----
+0: about to insert agpatel at position 17 with decrement 13
+1: about to insert aorourk at position 13 with decrement 1
+2: about to insert blaisef at position 14 with decrement 12
+3: about to insert cabrech at position 5 with decrement 16
+4: about to insert camden8 at position 19 with decrement 22
+5: about to insert cbelli at position 20 with decrement 22
+6: about to insert cetuck at position 16 with decrement 16
+7: about to insert cfkowal at position 12 with decrement 4
+8: about to insert cgs5 at position 11 with decrement 10
+9: about to insert cjmtchl at position 20 with decrement 20
+10: about to insert dbsilva at position 16 with decrement 14
+11: about to insert dmcamp at position 6 with decrement 8
+12: about to insert dyi at position 22 with decrement 21
+13: about to insert edsumne at position 20 with decrement 15
+14: about to insert elmitch at position 19 with decrement 15
+15: about to insert girons at position 5 with decrement 22
+16: about to insert gmoore4 at position 12 with decrement 8
+17: about to insert gvitell at position 2 with decrement 1
+18: about to insert hjpower at position 0 with decrement 16
+19: about to insert hraviva at position 0 with decrement 6
+20: about to insert jagarwa at position 16 with decrement 22
+21: about to insert jbowma3 at position 0 with decrement 13
+
+full table, last entry empty
+T->oa[0] cjmtchl
+T->oa[1] gvitell
+T->oa[2] dbsilva
+T->oa[3] gmoore4
+T->oa[4] elmitch
+T->oa[5] cabrech
+T->oa[6] dmcamp
+T->oa[7] girons
+T->oa[8] jbowma3
+T->oa[9] ∅
+T->oa[10] hjpower
+T->oa[11] cgs5
+T->oa[12] cfkowal
+T->oa[13] aorourk
+T->oa[14] blaisef
+T->oa[15] hraviva
+T->oa[16] cetuck
+T->oa[17] agpatel
+T->oa[18] jagarwa
+T->oa[19] camden8
+T->oa[20] cbelli
+T->oa[21] edsumne
+T->oa[22] dyi
+22 jbpage
+0: about to retrieve and then replace agpatel
+1: about to retrieve and then replace aorourk
+2: about to retrieve and then replace blaisef
+3: about to retrieve and then replace cabrech
+4: about to retrieve and then replace camden8
+5: about to retrieve and then replace cbelli
+6: about to retrieve and then replace cetuck
+7: about to retrieve and then replace cfkowal
+8: about to retrieve and then replace cgs5
+9: about to retrieve and then replace cjmtchl
+10: about to retrieve and then replace dbsilva
+11: about to retrieve and then replace dmcamp
+12: about to retrieve and then replace dyi
+13: about to retrieve and then replace edsumne
+14: about to retrieve and then replace elmitch
+15: about to retrieve and then replace girons
+16: about to retrieve and then replace gmoore4
+17: about to retrieve and then replace gvitell
+18: about to retrieve and then replace hjpower
+19: about to retrieve and then replace hraviva
+20: about to retrieve and then replace jagarwa
+21: about to retrieve and then replace jbowma3
+about to delete aorourk
+
+table should have one empty and one delete positions
+T->oa[0] cjmtchl
+T->oa[1] gvitell
+T->oa[2] dbsilva
+T->oa[3] gmoore4
+T->oa[4] elmitch
+T->oa[5] cabrech
+T->oa[6] dmcamp
+T->oa[7] girons
+T->oa[8] jbowma3
+T->oa[9] ∅
+T->oa[10] hjpower
+T->oa[11] cgs5
+T->oa[12] cfkowal
+T->oa[13] --del--
+T->oa[14] blaisef
+T->oa[15] hraviva
+T->oa[16] cetuck
+T->oa[17] agpatel
+T->oa[18] jagarwa
+T->oa[19] camden8
+T->oa[20] cbelli
+T->oa[21] edsumne
+T->oa[22] dyi
+
+ about to insert harlanr at 22
+
+ after clearing out all but two keys
+T->oa[0] --del--
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] --del--
+T->oa[6] --del--
+T->oa[7] --del--
+T->oa[8] --del--
+T->oa[9] ∅
+T->oa[10] --del--
+T->oa[11] --del--
+T->oa[12] --del--
+T->oa[13] harlanr
+T->oa[14] --del--
+T->oa[15] --del--
+T->oa[16] --del--
+T->oa[17] agpatel
+T->oa[18] --del--
+T->oa[19] --del--
+T->oa[20] --del--
+T->oa[21] --del--
+T->oa[22] --del--
+
+ about to insert 'abcdefg' at 20
+
+ after inserting into delete or empty position 
+T->oa[0] --del--
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] --del--
+T->oa[6] --del--
+T->oa[7] --del--
+T->oa[8] --del--
+T->oa[9] ∅
+T->oa[10] --del--
+T->oa[11] --del--
+T->oa[12] --del--
+T->oa[13] harlanr
+T->oa[14] --del--
+T->oa[15] --del--
+T->oa[16] --del--
+T->oa[17] agpatel
+T->oa[18] --del--
+T->oa[19] --del--
+T->oa[20] abcdefg
+T->oa[21] --del--
+T->oa[22] --del--
+
+ about to search for 'aaaaaaa' at 5
+
+ verify 5 items in table before rehash 
+T->oa[0] --del--
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] cabrech
+T->oa[6] --del--
+T->oa[7] --del--
+T->oa[8] --del--
+T->oa[9] ∅
+T->oa[10] --del--
+T->oa[11] --del--
+T->oa[12] --del--
+T->oa[13] harlanr
+T->oa[14] blaisef
+T->oa[15] --del--
+T->oa[16] --del--
+T->oa[17] agpatel
+T->oa[18] --del--
+T->oa[19] --del--
+T->oa[20] abcdefg
+T->oa[21] --del--
+T->oa[22] --del--
+
+table after rehash with 5 items
+table size: 23
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] ∅
+T->oa[3] ∅
+T->oa[4] ∅
+T->oa[5] cabrech
+T->oa[6] ∅
+T->oa[7] ∅
+T->oa[8] ∅
+T->oa[9] ∅
+T->oa[10] ∅
+T->oa[11] ∅
+T->oa[12] ∅
+T->oa[13] ∅
+T->oa[14] blaisef
+T->oa[15] ∅
+T->oa[16] ∅
+T->oa[17] agpatel
+T->oa[18] ∅
+T->oa[19] ∅
+T->oa[20] abcdefg
+T->oa[21] ∅
+T->oa[22] harlanr
+
+after increase table to 47 with 5 items
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] ∅
+T->oa[3] ∅
+T->oa[4] ∅
+T->oa[5] ∅
+T->oa[6] abcdefg
+T->oa[7] ∅
+T->oa[8] cabrech
+T->oa[9] harlanr
+T->oa[10] ∅
+T->oa[11] ∅
+T->oa[12] ∅
+T->oa[13] ∅
+T->oa[14] ∅
+T->oa[15] ∅
+T->oa[16] ∅
+T->oa[17] ∅
+T->oa[18] ∅
+T->oa[19] blaisef
+T->oa[20] ∅
+T->oa[21] ∅
+T->oa[22] ∅
+T->oa[23] ∅
+T->oa[24] ∅
+T->oa[25] ∅
+T->oa[26] ∅
+T->oa[27] ∅
+T->oa[28] ∅
+T->oa[29] agpatel
+T->oa[30] ∅
+T->oa[31] ∅
+T->oa[32] ∅
+T->oa[33] ∅
+T->oa[34] ∅
+T->oa[35] ∅
+T->oa[36] ∅
+T->oa[37] ∅
+T->oa[38] ∅
+T->oa[39] ∅
+T->oa[40] ∅
+T->oa[41] ∅
+T->oa[42] ∅
+T->oa[43] ∅
+T->oa[44] ∅
+T->oa[45] ∅
+T->oa[46] ∅
+
+after larger table filled
+T->oa[0] jumt26fZ
+T->oa[1] bish02Z
+T->oa[2] atuc9d2Z
+T->oa[3] yos431Z
+T->oa[4] hbd4677Z
+T->oa[5] gvf4boZ
+T->oa[6] abcdefg
+T->oa[7] fmlbe9Z
+T->oa[8] cabrech
+T->oa[9] harlanr
+T->oa[10] ynxr3wxZ
+T->oa[11] qkt0z5Z
+T->oa[12] nzzaszZ
+T->oa[13] trv39p1Z
+T->oa[14] wnxk809Z
+T->oa[15] fmtih10Z
+T->oa[16] qgogm88Z
+T->oa[17] ijuf55Z
+T->oa[18] ixtspxqZ
+T->oa[19] blaisef
+T->oa[20] eig7hp1Z
+T->oa[21] nzt18qdZ
+T->oa[22] ∅
+T->oa[23] cfqy87pZ
+T->oa[24] scb87wgZ
+T->oa[25] vuyz379Z
+T->oa[26] ghbhk2Z
+T->oa[27] nzw7zg7Z
+T->oa[28] fgie974Z
+T->oa[29] agpatel
+T->oa[30] rdtsk11Z
+T->oa[31] nuudi1pZ
+T->oa[32] wyz75dlZ
+T->oa[33] qtg50a9Z
+T->oa[34] osj0o1eZ
+T->oa[35] ioc2l0dZ
+T->oa[36] cas70a3Z
+T->oa[37] vvm31m4Z
+T->oa[38] inttshmZ
+T->oa[39] xec2f92Z
+T->oa[40] ljo4rZ
+T->oa[41] rbh4x1mZ
+T->oa[42] ymfe1eZ
+T->oa[43] lwre4fqZ
+T->oa[44] aqw5353Z
+T->oa[45] sicwxhdZ
+T->oa[46] tzs7d3Z
+----- Passed rehash driver -----
+
+Table size (23), load factor (0.9)
+Separate chaining
+Seed: 12042023
+
+----- Rehash driver -----
+0: about to insert agpatel at position 17
+1: about to insert aorourk at position 13
+2: about to insert blaisef at position 14
+3: about to insert cabrech at position 5
+4: about to insert camden8 at position 19
+5: about to insert cbelli at position 20
+6: about to insert cetuck at position 16
+7: about to insert cfkowal at position 12
+8: about to insert cgs5 at position 11
+9: about to insert cjmtchl at position 20
+10: about to insert dbsilva at position 16
+11: about to insert dmcamp at position 6
+12: about to insert dyi at position 22
+13: about to insert edsumne at position 20
+14: about to insert elmitch at position 19
+15: about to insert girons at position 5
+16: about to insert gmoore4 at position 12
+17: about to insert gvitell at position 2
+18: about to insert hjpower at position 0
+19: about to insert hraviva at position 0
+20: about to insert jagarwa at position 16
+21: about to insert jbowma3 at position 0
+
+full table, last entry empty
+T->sc[0] hjpower → hraviva → jbowma3 
+T->sc[1] ∅ 
+T->sc[2] gvitell 
+T->sc[3] ∅ 
+T->sc[4] ∅ 
+T->sc[5] cabrech → girons 
+T->sc[6] dmcamp 
+T->sc[7] ∅ 
+T->sc[8] ∅ 
+T->sc[9] ∅ 
+T->sc[10] ∅ 
+T->sc[11] cgs5 
+T->sc[12] cfkowal → gmoore4 
+T->sc[13] aorourk 
+T->sc[14] blaisef 
+T->sc[15] ∅ 
+T->sc[16] cetuck → dbsilva → jagarwa 
+T->sc[17] agpatel 
+T->sc[18] ∅ 
+T->sc[19] camden8 → elmitch 
+T->sc[20] cbelli → cjmtchl → edsumne 
+T->sc[21] ∅ 
+T->sc[22] dyi 
+22 jbpage
+0: about to retrieve and then replace agpatel
+1: about to retrieve and then replace aorourk
+2: about to retrieve and then replace blaisef
+3: about to retrieve and then replace cabrech
+4: about to retrieve and then replace camden8
+5: about to retrieve and then replace cbelli
+6: about to retrieve and then replace cetuck
+7: about to retrieve and then replace cfkowal
+8: about to retrieve and then replace cgs5
+9: about to retrieve and then replace cjmtchl
+10: about to retrieve and then replace dbsilva
+11: about to retrieve and then replace dmcamp
+12: about to retrieve and then replace dyi
+13: about to retrieve and then replace edsumne
+14: about to retrieve and then replace elmitch
+15: about to retrieve and then replace girons
+16: about to retrieve and then replace gmoore4
+17: about to retrieve and then replace gvitell
+18: about to retrieve and then replace hjpower
+19: about to retrieve and then replace hraviva
+20: about to retrieve and then replace jagarwa
+21: about to retrieve and then replace jbowma3
+about to delete aorourk
+
+table should have one empty and one delete positions
+T->sc[0] hjpower → hraviva → jbowma3 
+T->sc[1] ∅ 
+T->sc[2] gvitell 
+T->sc[3] ∅ 
+T->sc[4] ∅ 
+T->sc[5] cabrech → girons 
+T->sc[6] dmcamp 
+T->sc[7] ∅ 
+T->sc[8] ∅ 
+T->sc[9] ∅ 
+T->sc[10] ∅ 
+T->sc[11] cgs5 
+T->sc[12] cfkowal → gmoore4 
+T->sc[13] ∅ 
+T->sc[14] blaisef 
+T->sc[15] ∅ 
+T->sc[16] cetuck → dbsilva → jagarwa 
+T->sc[17] agpatel 
+T->sc[18] ∅ 
+T->sc[19] camden8 → elmitch 
+T->sc[20] cbelli → cjmtchl → edsumne 
+T->sc[21] ∅ 
+T->sc[22] dyi 
+
+ about to insert harlanr at 22
+
+ after clearing out all but two keys
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] ∅ 
+T->sc[5] ∅ 
+T->sc[6] ∅ 
+T->sc[7] ∅ 
+T->sc[8] ∅ 
+T->sc[9] ∅ 
+T->sc[10] ∅ 
+T->sc[11] ∅ 
+T->sc[12] ∅ 
+T->sc[13] ∅ 
+T->sc[14] ∅ 
+T->sc[15] ∅ 
+T->sc[16] ∅ 
+T->sc[17] agpatel 
+T->sc[18] ∅ 
+T->sc[19] ∅ 
+T->sc[20] ∅ 
+T->sc[21] ∅ 
+T->sc[22] harlanr 
+
+ about to insert 'abcdefg' at 20
+
+ after inserting into delete or empty position 
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] ∅ 
+T->sc[5] ∅ 
+T->sc[6] ∅ 
+T->sc[7] ∅ 
+T->sc[8] ∅ 
+T->sc[9] ∅ 
+T->sc[10] ∅ 
+T->sc[11] ∅ 
+T->sc[12] ∅ 
+T->sc[13] ∅ 
+T->sc[14] ∅ 
+T->sc[15] ∅ 
+T->sc[16] ∅ 
+T->sc[17] agpatel 
+T->sc[18] ∅ 
+T->sc[19] ∅ 
+T->sc[20] abcdefg 
+T->sc[21] ∅ 
+T->sc[22] harlanr 
+
+ about to search for 'aaaaaaa' at 5
+
+ verify 5 items in table before rehash 
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] ∅ 
+T->sc[5] cabrech 
+T->sc[6] ∅ 
+T->sc[7] ∅ 
+T->sc[8] ∅ 
+T->sc[9] ∅ 
+T->sc[10] ∅ 
+T->sc[11] ∅ 
+T->sc[12] ∅ 
+T->sc[13] ∅ 
+T->sc[14] blaisef 
+T->sc[15] ∅ 
+T->sc[16] ∅ 
+T->sc[17] agpatel 
+T->sc[18] ∅ 
+T->sc[19] ∅ 
+T->sc[20] abcdefg 
+T->sc[21] ∅ 
+T->sc[22] harlanr 
+
+table after rehash with 5 items
+table size: 23
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] ∅ 
+T->sc[5] cabrech 
+T->sc[6] ∅ 
+T->sc[7] ∅ 
+T->sc[8] ∅ 
+T->sc[9] ∅ 
+T->sc[10] ∅ 
+T->sc[11] ∅ 
+T->sc[12] ∅ 
+T->sc[13] ∅ 
+T->sc[14] blaisef 
+T->sc[15] ∅ 
+T->sc[16] ∅ 
+T->sc[17] agpatel 
+T->sc[18] ∅ 
+T->sc[19] ∅ 
+T->sc[20] abcdefg 
+T->sc[21] ∅ 
+T->sc[22] harlanr 
+
+after increase table to 46 with 5 items
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] ∅ 
+T->sc[5] ∅ 
+T->sc[6] ∅ 
+T->sc[7] ∅ 
+T->sc[8] ∅ 
+T->sc[9] ∅ 
+T->sc[10] ∅ 
+T->sc[11] ∅ 
+T->sc[12] ∅ 
+T->sc[13] ∅ 
+T->sc[14] blaisef 
+T->sc[15] ∅ 
+T->sc[16] ∅ 
+T->sc[17] ∅ 
+T->sc[18] ∅ 
+T->sc[19] ∅ 
+T->sc[20] abcdefg 
+T->sc[21] ∅ 
+T->sc[22] harlanr 
+T->sc[23] ∅ 
+T->sc[24] ∅ 
+T->sc[25] ∅ 
+T->sc[26] ∅ 
+T->sc[27] ∅ 
+T->sc[28] cabrech 
+T->sc[29] ∅ 
+T->sc[30] ∅ 
+T->sc[31] ∅ 
+T->sc[32] ∅ 
+T->sc[33] ∅ 
+T->sc[34] ∅ 
+T->sc[35] ∅ 
+T->sc[36] ∅ 
+T->sc[37] ∅ 
+T->sc[38] ∅ 
+T->sc[39] ∅ 
+T->sc[40] agpatel 
+T->sc[41] ∅ 
+T->sc[42] ∅ 
+T->sc[43] ∅ 
+T->sc[44] ∅ 
+T->sc[45] ∅ 
+
+after larger table filled
+T->sc[0] ijuf55Z 
+T->sc[1] scb87wgZ → aqw5353Z 
+T->sc[2] ∅ 
+T->sc[3] ioc2l0dZ 
+T->sc[4] jumt26fZ 
+T->sc[5] ∅ 
+T->sc[6] nuudi1pZ → sicwxhdZ 
+T->sc[7] inttshmZ → ymfe1eZ → ljo4rZ → lwre4fqZ 
+T->sc[8] wyz75dlZ 
+T->sc[9] trv39p1Z 
+T->sc[10] atuc9d2Z 
+T->sc[11] ∅ 
+T->sc[12] ∅ 
+T->sc[13] ∅ 
+T->sc[14] blaisef → gvf4boZ 
+T->sc[15] ∅ 
+T->sc[16] vvm31m4Z 
+T->sc[17] ynxr3wxZ 
+T->sc[18] ∅ 
+T->sc[19] ∅ 
+T->sc[20] abcdefg → hbd4677Z 
+T->sc[21] ∅ 
+T->sc[22] harlanr 
+T->sc[23] xec2f92Z 
+T->sc[24] ∅ 
+T->sc[25] ∅ 
+T->sc[26] ∅ 
+T->sc[27] ∅ 
+T->sc[28] cabrech 
+T->sc[29] qkt0z5Z → wnxk809Z → vuyz379Z → qgogm88Z 
+T->sc[30] ∅ 
+T->sc[31] qtg50a9Z 
+T->sc[32] cfqy87pZ → cas70a3Z → nzt18qdZ 
+T->sc[33] tzs7d3Z → eig7hp1Z → ixtspxqZ 
+T->sc[34] rdtsk11Z 
+T->sc[35] ∅ 
+T->sc[36] rbh4x1mZ → nzzaszZ 
+T->sc[37] ∅ 
+T->sc[38] ∅ 
+T->sc[39] fmlbe9Z 
+T->sc[40] agpatel → bish02Z 
+T->sc[41] yos431Z 
+T->sc[42] ∅ 
+T->sc[43] fmtih10Z 
+T->sc[44] ghbhk2Z 
+T->sc[45] fgie974Z → osj0o1eZ 
+----- Passed rehash driver -----
+
+Table size (11), load factor (0.9)
+Open addressing with linear probe sequence
+Seed: 12042023
+
+----- Deletion driver for table size 7. Compare to HW9.6-----
+	k0 is 0oc2l0dZ for location 5
+	k1 is 1tg50a9Z for location 5
+	k2 is  2kt0z5Z for location 4
+	k3 is 3bd4677Z for location 5
+	k4 is  4hbhk2Z for location 5
+	k5 is 5umt26fZ for location 5
+
+table with k0, k1, k2, and k3
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] 3bd4677Z
+T->oa[3] 2kt0z5Z
+T->oa[4] 1tg50a9Z
+T->oa[5] 0oc2l0dZ
+T->oa[6] ∅
+
+table after deleting k0 and k1.  Table has k2 and k3
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] 3bd4677Z
+T->oa[3] 2kt0z5Z
+T->oa[4] --del--
+T->oa[5] --del--
+T->oa[6] ∅
+
+table after replacing k3.  Verify replaced not inserted
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] 3bd4677Z
+T->oa[3] 2kt0z5Z
+T->oa[4] --del--
+T->oa[5] --del--
+T->oa[6] ∅
+
+table after inserting k5 into position 5
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] 3bd4677Z
+T->oa[3] 2kt0z5Z
+T->oa[4] --del--
+T->oa[5] 5umt26fZ
+T->oa[6] ∅
+
+----- Deletion driver for full table with size 7. Compare to HW9.7 -----
+	k0 is 0sj0o1eZ for location 0
+	k1 is 1zt18qdZ for location 1
+	k2 is 2ec2f92Z for location 2
+	k3 is 3ulln1Z for location 3
+	k4 is 4vnk24Z for location 4
+	k5 is 5xz2x7qZ for location 5
+	k6 is 6ck7g2hZ for location 6
+	k7 is 7nltozZ for location 0
+	k8 is 8hc0jauZ for location 2
+
+table that is full
+T->oa[0] 0sj0o1eZ
+T->oa[1] 1zt18qdZ
+T->oa[2] 2ec2f92Z
+T->oa[3] 3ulln1Z
+T->oa[4] 4vnk24Z
+T->oa[5] 5xz2x7qZ
+T->oa[6] ∅
+
+table after deleting all but one key.  One empty location
+T->oa[0] --del--
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] 5xz2x7qZ
+T->oa[6] ∅
+
+table after inserting k6 into last empty location
+T->oa[0] --del--
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] 5xz2x7qZ
+T->oa[6] 6ck7g2hZ
+
+table after inserting k7 into position 0. 7 probes were required
+T->oa[0] 7nltozZ
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] 5xz2x7qZ
+T->oa[6] 6ck7g2hZ
+Did not find 8hc0jauZ after 7 probes
+Table size (11), load factor (0.9)
+Open addressing with linear probe sequence
+Seed: 12042023
+
+----- Deletion driver for table size 7. Compare to HW9.6-----
+	k0 is 0oc2l0dZ for location 5
+	k1 is 1tg50a9Z for location 5
+	k2 is  2kt0z5Z for location 4
+	k3 is 3bd4677Z for location 5
+	k4 is  4hbhk2Z for location 5
+	k5 is 5umt26fZ for location 5
+
+table with k0, k1, k2, and k3
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] 3bd4677Z
+T->oa[3] 2kt0z5Z
+T->oa[4] 1tg50a9Z
+T->oa[5] 0oc2l0dZ
+T->oa[6] ∅
+
+table after deleting k0 and k1.  Table has k2 and k3
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] 3bd4677Z
+T->oa[3] 2kt0z5Z
+T->oa[4] --del--
+T->oa[5] --del--
+T->oa[6] ∅
+
+table after replacing k3.  Verify replaced not inserted
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] 3bd4677Z
+T->oa[3] 2kt0z5Z
+T->oa[4] --del--
+T->oa[5] --del--
+T->oa[6] ∅
+
+table after inserting k5 into position 5
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] 3bd4677Z
+T->oa[3] 2kt0z5Z
+T->oa[4] --del--
+T->oa[5] 5umt26fZ
+T->oa[6] ∅
+
+----- Deletion driver for full table with size 7. Compare to HW9.7 -----
+	k0 is 0sj0o1eZ for location 0
+	k1 is 1zt18qdZ for location 1
+	k2 is 2ec2f92Z for location 2
+	k3 is 3ulln1Z for location 3
+	k4 is 4vnk24Z for location 4
+	k5 is 5xz2x7qZ for location 5
+	k6 is 6ck7g2hZ for location 6
+	k7 is 7nltozZ for location 0
+	k8 is 8hc0jauZ for location 2
+
+table that is full
+T->oa[0] 0sj0o1eZ
+T->oa[1] 1zt18qdZ
+T->oa[2] 2ec2f92Z
+T->oa[3] 3ulln1Z
+T->oa[4] 4vnk24Z
+T->oa[5] 5xz2x7qZ
+T->oa[6] ∅
+
+table after deleting all but one key.  One empty location
+T->oa[0] --del--
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] 5xz2x7qZ
+T->oa[6] ∅
+
+table after inserting k6 into last empty location
+T->oa[0] --del--
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] 5xz2x7qZ
+T->oa[6] 6ck7g2hZ
+
+table after inserting k7 into position 0. 7 probes were required
+T->oa[0] 7nltozZ
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] 5xz2x7qZ
+T->oa[6] 6ck7g2hZ
+Did not find 8hc0jauZ after 7 probes
+Table size (11), load factor (0.9)
+Open addressing with double hashing
+Seed: 12042023
+
+----- Deletion driver for table size 7. Compare to HW9.6-----
+	k0 is 0oc2l0dZ for location 5
+	k1 is 1tg50a9Z for location 5
+	k2 is  2kt0z5Z for location 4
+	k3 is 3bd4677Z for location 5
+	k4 is  4hbhk2Z for location 5
+	k5 is 5umt26fZ for location 5
+
+table with k0, k1, k2, and k3
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] 2kt0z5Z
+T->oa[3] 3bd4677Z
+T->oa[4] 1tg50a9Z
+T->oa[5] 0oc2l0dZ
+T->oa[6] ∅
+
+table after deleting k0 and k1.  Table has k2 and k3
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] 2kt0z5Z
+T->oa[3] 3bd4677Z
+T->oa[4] --del--
+T->oa[5] --del--
+T->oa[6] ∅
+
+table after replacing k3.  Verify replaced not inserted
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] 2kt0z5Z
+T->oa[3] 3bd4677Z
+T->oa[4] --del--
+T->oa[5] --del--
+T->oa[6] ∅
+
+table after inserting k5 into position 5
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] 2kt0z5Z
+T->oa[3] 3bd4677Z
+T->oa[4] --del--
+T->oa[5] 5umt26fZ
+T->oa[6] ∅
+
+----- Deletion driver for full table with size 7. Compare to HW9.7 -----
+	k0 is 0sj0o1eZ for location 0
+	k1 is 1zt18qdZ for location 1
+	k2 is 2ec2f92Z for location 2
+	k3 is 3ulln1Z for location 3
+	k4 is 4vnk24Z for location 4
+	k5 is 5xz2x7qZ for location 5
+	k6 is 6ck7g2hZ for location 6
+	k7 is 7nltozZ for location 0
+	k8 is 8hc0jauZ for location 2
+
+table that is full
+T->oa[0] 0sj0o1eZ
+T->oa[1] 1zt18qdZ
+T->oa[2] 2ec2f92Z
+T->oa[3] 3ulln1Z
+T->oa[4] 4vnk24Z
+T->oa[5] 5xz2x7qZ
+T->oa[6] ∅
+
+table after deleting all but one key.  One empty location
+T->oa[0] --del--
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] 5xz2x7qZ
+T->oa[6] ∅
+
+table after inserting k6 into last empty location
+T->oa[0] --del--
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] 5xz2x7qZ
+T->oa[6] 6ck7g2hZ
+
+table after inserting k7 into position 0. 7 probes were required
+T->oa[0] 7nltozZ
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] 5xz2x7qZ
+T->oa[6] 6ck7g2hZ
+Did not find 8hc0jauZ after 7 probes
+Table size (11), load factor (0.9)
+Separate chaining
+Seed: 12042023
+
+----- Deletion driver for table size 7. Compare to HW9.6-----
+	k0 is 0oc2l0dZ for location 5
+	k1 is 1tg50a9Z for location 5
+	k2 is  2kt0z5Z for location 4
+	k3 is 3bd4677Z for location 5
+	k4 is  4hbhk2Z for location 5
+	k5 is 5umt26fZ for location 5
+
+table with k0, k1, k2, and k3
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] 2kt0z5Z 
+T->sc[5] 0oc2l0dZ → 1tg50a9Z → 3bd4677Z 
+T->sc[6] ∅ 
+
+table after deleting k0 and k1.  Table has k2 and k3
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] 2kt0z5Z 
+T->sc[5] 3bd4677Z 
+T->sc[6] ∅ 
+
+table after replacing k3.  Verify replaced not inserted
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] 2kt0z5Z 
+T->sc[5] 3bd4677Z 
+T->sc[6] ∅ 
+
+table after inserting k5 into position 5
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] 2kt0z5Z 
+T->sc[5] 3bd4677Z → 5umt26fZ 
+T->sc[6] ∅ 
+
+----- Deletion driver for full table with size 7. Compare to HW9.7 -----
+	k0 is 0sj0o1eZ for location 0
+	k1 is 1zt18qdZ for location 1
+	k2 is 2ec2f92Z for location 2
+	k3 is 3ulln1Z for location 3
+	k4 is 4vnk24Z for location 4
+	k5 is 5xz2x7qZ for location 5
+	k6 is 6ck7g2hZ for location 6
+	k7 is 7nltozZ for location 0
+	k8 is 8hc0jauZ for location 2
+
+table that is full
+T->sc[0] 0sj0o1eZ 
+T->sc[1] 1zt18qdZ 
+T->sc[2] 2ec2f92Z 
+T->sc[3] 3ulln1Z 
+T->sc[4] 4vnk24Z 
+T->sc[5] 5xz2x7qZ 
+T->sc[6] ∅ 
+
+table after deleting all but one key.  One empty location
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] ∅ 
+T->sc[5] 5xz2x7qZ 
+T->sc[6] ∅ 
+
+table after inserting k6 into last empty location
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] ∅ 
+T->sc[5] 5xz2x7qZ 
+T->sc[6] 6ck7g2hZ 
+
+table after inserting k7 into position 0. 0 probes were required
+T->sc[0] 7nltozZ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] ∅ 
+T->sc[5] 5xz2x7qZ 
+T->sc[6] 6ck7g2hZ 
+Did not find 8hc0jauZ after 0 probes
+Table size (47), load factor (0.9)
+Open addressing with linear probe sequence
+Seed: 12042023
+
+----- Equilibrium test driver -----
+  Trials: 2
+  Build table with 42 random keys
+0: marilyt, h: 26
+1: elmitch, h: 16
+2: jkaeppl, h: 33
+3: cetuck, h: 23
+4: witt5, h: 7
+5: edsumne, h: 42
+6: cfkowal, h: 0
+7: jbpage, h: 36
+8: pcashle, h: 5
+9: cjmtchl, h: 3
+10: cabrech, h: 8
+11: girons, h: 15
+12: pabera, h: 38
+13: gmoore4, h: 21
+14: jagarwa, h: 3
+15: sbrenn, h: 15
+16: mjraymo, h: 34
+17: zsantar, h: 40
+18: stm3, h: 15
+19: zblack3, h: 32
+20: schlese, h: 24
+21: tndoniq, h: 41
+22: agpatel, h: 29
+23: slcobb, h: 33
+24: blaisef, h: 19
+25: jbowma3, h: 9
+26: cbelli, h: 42
+27: rtmaune, h: 36
+28: hraviva, h: 35
+29: kguerns, h: 13
+30: cgs5, h: 23
+31: gvitell, h: 37
+32: camden8, h: 10
+33: rhende3, h: 18
+34: aorourk, h: 35
+35: dyi, h: 10
+36: dmcamp, h: 26
+37: mvmorri, h: 46
+38: dbsilva, h: 46
+39: xai, h: 36
+40: zgmoser, h: 10
+41: hjpower, h: 8
+    The average number of probes for a successful search = 1.2381
+T->oa[0] cfkowal
+T->oa[1] hjpower
+T->oa[2] jagarwa
+T->oa[3] cjmtchl
+T->oa[4] zgmoser
+T->oa[5] pcashle
+T->oa[6] dyi
+T->oa[7] witt5
+T->oa[8] cabrech
+T->oa[9] jbowma3
+T->oa[10] camden8
+T->oa[11] ∅
+T->oa[12] kguerns
+T->oa[13] stm3
+T->oa[14] sbrenn
+T->oa[15] girons
+T->oa[16] elmitch
+T->oa[17] ∅
+T->oa[18] rhende3
+T->oa[19] blaisef
+T->oa[20] ∅
+T->oa[21] gmoore4
+T->oa[22] cgs5
+T->oa[23] cetuck
+T->oa[24] schlese
+T->oa[25] dmcamp
+T->oa[26] marilyt
+T->oa[27] xai
+T->oa[28] aorourk
+T->oa[29] agpatel
+T->oa[30] hraviva
+T->oa[31] slcobb
+T->oa[32] zblack3
+T->oa[33] jkaeppl
+T->oa[34] mjraymo
+T->oa[35] rtmaune
+T->oa[36] jbpage
+T->oa[37] gvitell
+T->oa[38] pabera
+T->oa[39] cbelli
+T->oa[40] zsantar
+T->oa[41] tndoniq
+T->oa[42] edsumne
+T->oa[43] ∅
+T->oa[44] ∅
+T->oa[45] dbsilva
+T->oa[46] mvmorri
+Trial 0, Delete Key witt5 removed
+Trial 1, Delete Key mjraymo removed
+Table after equilibrium trials
+T->oa[0] cfkowal
+T->oa[1] hjpower
+T->oa[2] jagarwa
+T->oa[3] cjmtchl
+T->oa[4] zgmoser
+T->oa[5] pcashle
+T->oa[6] dyi
+T->oa[7] --del--
+T->oa[8] cabrech
+T->oa[9] jbowma3
+T->oa[10] camden8
+T->oa[11] ∅
+T->oa[12] kguerns
+T->oa[13] stm3
+T->oa[14] sbrenn
+T->oa[15] girons
+T->oa[16] elmitch
+T->oa[17] ∅
+T->oa[18] rhende3
+T->oa[19] blaisef
+T->oa[20] ∅
+T->oa[21] gmoore4
+T->oa[22] cgs5
+T->oa[23] cetuck
+T->oa[24] schlese
+T->oa[25] dmcamp
+T->oa[26] marilyt
+T->oa[27] xai
+T->oa[28] aorourk
+T->oa[29] agpatel
+T->oa[30] hraviva
+T->oa[31] slcobb
+T->oa[32] zblack3
+T->oa[33] jkaeppl
+T->oa[34] --del--
+T->oa[35] rtmaune
+T->oa[36] jbpage
+T->oa[37] gvitell
+T->oa[38] pabera
+T->oa[39] cbelli
+T->oa[40] zsantar
+T->oa[41] tndoniq
+T->oa[42] edsumne
+T->oa[43] ∅
+T->oa[44] ∅
+T->oa[45] dbsilva
+T->oa[46] mvmorri
+  Keys added (0), removed (2) new size should be (40) and is (40)
+  After exercise, time=0.038 
+  successful searches during exercise=1, trials=2
+  unsuccessful searches during exercise=-nan, trials=0
+  After retrieve experiment, time=0.011
+  New load factor = 0.851064
+  Percent empty locations marked deleted = 28.5714
+   Measured avg probes for successful search=2.3, trials=40
+   Measured avg probes for unsuccessful search=14.5, trials=2
+
+	Run with table size at least 101 (-m 101).  Try -m 65537 and 655373
+
+Start looking for class keys
+0: looking for agpatel at 29
+	 found with 1 probes
+1: looking for aorourk at 35
+	 found with 8 probes
+2: looking for blaisef at 19
+	 found with 1 probes
+3: looking for cabrech at 8
+	 found with 1 probes
+4: looking for camden8 at 10
+	 found with 1 probes
+5: looking for cbelli at 42
+	 found with 4 probes
+6: looking for cetuck at 23
+	 found with 1 probes
+7: looking for cfkowal at 0
+	 found with 1 probes
+8: looking for cgs5 at 23
+	 found with 2 probes
+9: looking for cjmtchl at 3
+	 found with 1 probes
+10: looking for dbsilva at 46
+	 found with 2 probes
+11: looking for dmcamp at 26
+	 found with 2 probes
+12: looking for dyi at 10
+	 found with 5 probes
+13: looking for edsumne at 42
+	 found with 1 probes
+14: looking for elmitch at 16
+	 found with 1 probes
+15: looking for girons at 15
+	 found with 1 probes
+16: looking for gmoore4 at 21
+	 found with 1 probes
+17: looking for gvitell at 37
+	 found with 1 probes
+18: looking for hjpower at 8
+	 found with 8 probes
+19: looking for hraviva at 35
+	 found with 6 probes
+20: looking for jagarwa at 3
+	 found with 2 probes
+21: looking for jbowma3 at 9
+	 found with 1 probes
+22: looking for jbpage at 36
+	 found with 1 probes
+23: looking for jkaeppl at 33
+	 found with 1 probes
+24: looking for kguerns at 13
+	 found with 2 probes
+25: looking for marilyt at 26
+	 found with 1 probes
+26: looking for mjraymo at 34
+	 not found with 14 probes
+27: looking for mvmorri at 46
+	 found with 1 probes
+28: looking for pabera at 38
+	 found with 1 probes
+29: looking for pcashle at 5
+	 found with 1 probes
+30: looking for rhende3 at 18
+	 found with 1 probes
+31: looking for rtmaune at 36
+	 found with 2 probes
+32: looking for sbrenn at 15
+	 found with 2 probes
+33: looking for schlese at 24
+	 found with 1 probes
+34: looking for slcobb at 33
+	 found with 3 probes
+35: looking for stm3 at 15
+	 found with 3 probes
+36: looking for tndoniq at 41
+	 found with 1 probes
+37: looking for witt5 at 7
+	 not found with 10 probes
+38: looking for zblack3 at 32
+	 found with 1 probes
+39: looking for zgmoser at 10
+	 found with 7 probes
+40: looking for zsantar at 40
+	 found with 1 probes
+41: looking for xai at 36
+	 found with 10 probes
+42: looking for harlanr at 9
+	 not found with 12 probes
+Found 40 of the class keys. Did not find 3
+  Rehash table
+Start looking for class keys
+0: looking for agpatel at 29
+	 found with 1 probes
+1: looking for aorourk at 35
+	 found with 1 probes
+2: looking for blaisef at 19
+	 found with 1 probes
+3: looking for cabrech at 8
+	 found with 2 probes
+4: looking for camden8 at 10
+	 found with 7 probes
+5: looking for cbelli at 42
+	 found with 1 probes
+6: looking for cetuck at 23
+	 found with 2 probes
+7: looking for cfkowal at 0
+	 found with 1 probes
+8: looking for cgs5 at 23
+	 found with 1 probes
+9: looking for cjmtchl at 3
+	 found with 2 probes
+10: looking for dbsilva at 46
+	 found with 1 probes
+11: looking for dmcamp at 26
+	 found with 1 probes
+12: looking for dyi at 10
+	 found with 2 probes
+13: looking for edsumne at 42
+	 found with 4 probes
+14: looking for elmitch at 16
+	 found with 1 probes
+15: looking for girons at 15
+	 found with 4 probes
+16: looking for gmoore4 at 21
+	 found with 1 probes
+17: looking for gvitell at 37
+	 found with 1 probes
+18: looking for hjpower at 8
+	 found with 1 probes
+19: looking for hraviva at 35
+	 found with 2 probes
+20: looking for jagarwa at 3
+	 found with 1 probes
+21: looking for jbowma3 at 9
+	 found with 4 probes
+22: looking for jbpage at 36
+	 found with 9 probes
+23: looking for jkaeppl at 33
+	 found with 3 probes
+24: looking for kguerns at 13
+	 found with 1 probes
+25: looking for marilyt at 26
+	 found with 2 probes
+26: looking for mjraymo at 34
+	 not found with 7 probes
+27: looking for mvmorri at 46
+	 found with 2 probes
+28: looking for pabera at 38
+	 found with 1 probes
+29: looking for pcashle at 5
+	 found with 1 probes
+30: looking for rhende3 at 18
+	 found with 1 probes
+31: looking for rtmaune at 36
+	 found with 7 probes
+32: looking for sbrenn at 15
+	 found with 2 probes
+33: looking for schlese at 24
+	 found with 1 probes
+34: looking for slcobb at 33
+	 found with 1 probes
+35: looking for stm3 at 15
+	 found with 1 probes
+36: looking for tndoniq at 41
+	 found with 1 probes
+37: looking for witt5 at 7
+	 not found with 6 probes
+38: looking for zblack3 at 32
+	 found with 1 probes
+39: looking for zgmoser at 10
+	 found with 1 probes
+40: looking for zsantar at 40
+	 found with 1 probes
+41: looking for xai at 36
+	 found with 1 probes
+42: looking for harlanr at 9
+	 not found with 8 probes
+Found 40 of the class keys. Did not find 3
+  After rehash, time=0.011
+   Measured avg probes for successful search=1.975, trials=40
+   Measured avg probes for unsuccessful search=2, trials=2
+----- End of equilibrium test -----
+
+Table size (47), load factor (0.9)
+Open addressing with double hashing
+Seed: 12042023
+
+----- Equilibrium test driver -----
+  Trials: 2
+  Build table with 42 random keys
+0: marilyt, h: 26 d: 45
+1: elmitch, h: 16 d: 16
+2: jkaeppl, h: 33 d: 12
+3: cetuck, h: 23 d: 25
+4: witt5, h: 7 d: 17
+5: edsumne, h: 42 d: 26
+6: cfkowal, h: 0 d: 20
+7: jbpage, h: 36 d: 9
+8: pcashle, h: 5 d: 45
+9: cjmtchl, h: 3 d: 14
+10: cabrech, h: 8 d: 33
+11: girons, h: 15 d: 7
+12: pabera, h: 38 d: 8
+13: gmoore4, h: 21 d: 5
+14: jagarwa, h: 3 d: 32
+15: sbrenn, h: 15 d: 4
+16: mjraymo, h: 34 d: 18
+17: zsantar, h: 40 d: 16
+18: stm3, h: 15 d: 29
+19: zblack3, h: 32 d: 43
+20: schlese, h: 24 d: 14
+21: tndoniq, h: 41 d: 16
+22: agpatel, h: 29 d: 3
+23: slcobb, h: 33 d: 45
+24: blaisef, h: 19 d: 12
+25: jbowma3, h: 9 d: 5
+26: cbelli, h: 42 d: 10
+27: rtmaune, h: 36 d: 6
+28: hraviva, h: 35 d: 3
+29: kguerns, h: 13 d: 5
+30: cgs5, h: 23 d: 23
+31: gvitell, h: 37 d: 5
+32: camden8, h: 10 d: 30
+33: rhende3, h: 18 d: 18
+34: aorourk, h: 35 d: 11
+35: dyi, h: 10 d: 31
+36: dmcamp, h: 26 d: 42
+37: mvmorri, h: 46 d: 12
+38: dbsilva, h: 46 d: 36
+39: xai, h: 36 d: 10
+40: zgmoser, h: 10 d: 33
+41: hjpower, h: 8 d: 7
+    The average number of probes for a successful search = 1.33333
+T->oa[0] cfkowal
+T->oa[1] cgs5
+T->oa[2] aorourk
+T->oa[3] cjmtchl
+T->oa[4] stm3
+T->oa[5] pcashle
+T->oa[6] xai
+T->oa[7] witt5
+T->oa[8] cabrech
+T->oa[9] jbowma3
+T->oa[10] camden8
+T->oa[11] sbrenn
+T->oa[12] ∅
+T->oa[13] kguerns
+T->oa[14] zgmoser
+T->oa[15] girons
+T->oa[16] elmitch
+T->oa[17] ∅
+T->oa[18] jagarwa
+T->oa[19] blaisef
+T->oa[20] hraviva
+T->oa[21] gmoore4
+T->oa[22] cbelli
+T->oa[23] cetuck
+T->oa[24] schlese
+T->oa[25] ∅
+T->oa[26] marilyt
+T->oa[27] dyi
+T->oa[28] ∅
+T->oa[29] agpatel
+T->oa[30] rtmaune
+T->oa[31] dmcamp
+T->oa[32] zblack3
+T->oa[33] jkaeppl
+T->oa[34] mjraymo
+T->oa[35] slcobb
+T->oa[36] jbpage
+T->oa[37] gvitell
+T->oa[38] pabera
+T->oa[39] hjpower
+T->oa[40] zsantar
+T->oa[41] tndoniq
+T->oa[42] edsumne
+T->oa[43] dbsilva
+T->oa[44] rhende3
+T->oa[45] ∅
+T->oa[46] mvmorri
+Trial 0, Delete Key rhende3 removed
+Trial 1, Insert Key tei7n6hZ added
+Table after equilibrium trials
+T->oa[0] cfkowal
+T->oa[1] cgs5
+T->oa[2] aorourk
+T->oa[3] cjmtchl
+T->oa[4] stm3
+T->oa[5] pcashle
+T->oa[6] xai
+T->oa[7] witt5
+T->oa[8] cabrech
+T->oa[9] jbowma3
+T->oa[10] camden8
+T->oa[11] sbrenn
+T->oa[12] ∅
+T->oa[13] kguerns
+T->oa[14] zgmoser
+T->oa[15] girons
+T->oa[16] elmitch
+T->oa[17] ∅
+T->oa[18] jagarwa
+T->oa[19] blaisef
+T->oa[20] hraviva
+T->oa[21] gmoore4
+T->oa[22] cbelli
+T->oa[23] cetuck
+T->oa[24] schlese
+T->oa[25] ∅
+T->oa[26] marilyt
+T->oa[27] dyi
+T->oa[28] ∅
+T->oa[29] agpatel
+T->oa[30] rtmaune
+T->oa[31] dmcamp
+T->oa[32] zblack3
+T->oa[33] jkaeppl
+T->oa[34] mjraymo
+T->oa[35] slcobb
+T->oa[36] jbpage
+T->oa[37] gvitell
+T->oa[38] pabera
+T->oa[39] hjpower
+T->oa[40] zsantar
+T->oa[41] tndoniq
+T->oa[42] edsumne
+T->oa[43] dbsilva
+T->oa[44] --del--
+T->oa[45] tei7n6hZ
+T->oa[46] mvmorri
+  Keys added (1), removed (1) new size should be (42) and is (42)
+  After exercise, time=0.035 
+  successful searches during exercise=10, trials=1
+  unsuccessful searches during exercise=0, trials=1
+  After retrieve experiment, time=0.012
+  New load factor = 0.893617
+  Percent empty locations marked deleted = 20
+   Measured avg probes for successful search=2.11905, trials=42
+   Measured avg probes for unsuccessful search=8, trials=2
+
+	Run with table size at least 101 (-m 101).  Try -m 65537 and 655373
+
+Start looking for class keys
+0: looking for agpatel at 29 with decrement 3
+	 found with 1 probes
+1: looking for aorourk at 35 with decrement 11
+	 found with 4 probes
+2: looking for blaisef at 19 with decrement 12
+	 found with 1 probes
+3: looking for cabrech at 8 with decrement 33
+	 found with 1 probes
+4: looking for camden8 at 10 with decrement 30
+	 found with 1 probes
+5: looking for cbelli at 42 with decrement 10
+	 found with 3 probes
+6: looking for cetuck at 23 with decrement 25
+	 found with 1 probes
+7: looking for cfkowal at 0 with decrement 20
+	 found with 1 probes
+8: looking for cgs5 at 23 with decrement 23
+	 found with 4 probes
+9: looking for cjmtchl at 3 with decrement 14
+	 found with 1 probes
+10: looking for dbsilva at 46 with decrement 36
+	 found with 5 probes
+11: looking for dmcamp at 26 with decrement 42
+	 found with 2 probes
+12: looking for dyi at 10 with decrement 31
+	 found with 5 probes
+13: looking for edsumne at 42 with decrement 26
+	 found with 1 probes
+14: looking for elmitch at 16 with decrement 16
+	 found with 1 probes
+15: looking for girons at 15 with decrement 7
+	 found with 1 probes
+16: looking for gmoore4 at 21 with decrement 5
+	 found with 1 probes
+17: looking for gvitell at 37 with decrement 5
+	 found with 1 probes
+18: looking for hjpower at 8 with decrement 7
+	 found with 10 probes
+19: looking for hraviva at 35 with decrement 3
+	 found with 6 probes
+20: looking for jagarwa at 3 with decrement 32
+	 found with 2 probes
+21: looking for jbowma3 at 9 with decrement 5
+	 found with 1 probes
+22: looking for jbpage at 36 with decrement 9
+	 found with 1 probes
+23: looking for jkaeppl at 33 with decrement 12
+	 found with 1 probes
+24: looking for kguerns at 13 with decrement 5
+	 found with 1 probes
+25: looking for marilyt at 26 with decrement 45
+	 found with 1 probes
+26: looking for mjraymo at 34 with decrement 18
+	 found with 1 probes
+27: looking for mvmorri at 46 with decrement 12
+	 found with 1 probes
+28: looking for pabera at 38 with decrement 8
+	 found with 1 probes
+29: looking for pcashle at 5 with decrement 45
+	 found with 1 probes
+30: looking for rhende3 at 18 with decrement 18
+	 not found with 16 probes
+31: looking for rtmaune at 36 with decrement 6
+	 found with 2 probes
+32: looking for sbrenn at 15 with decrement 4
+	 found with 2 probes
+33: looking for schlese at 24 with decrement 14
+	 found with 1 probes
+34: looking for slcobb at 33 with decrement 45
+	 found with 2 probes
+35: looking for stm3 at 15 with decrement 29
+	 found with 3 probes
+36: looking for tndoniq at 41 with decrement 16
+	 found with 1 probes
+37: looking for witt5 at 7 with decrement 17
+	 found with 1 probes
+38: looking for zblack3 at 32 with decrement 43
+	 found with 1 probes
+39: looking for zgmoser at 10 with decrement 33
+	 found with 8 probes
+40: looking for zsantar at 40 with decrement 16
+	 found with 1 probes
+41: looking for xai at 36 with decrement 10
+	 found with 4 probes
+42: looking for harlanr at 9 with decrement 14
+	 not found with 2 probes
+Found 41 of the class keys. Did not find 2
+  Rehash table
+Start looking for class keys
+0: looking for agpatel at 29 with decrement 3
+	 found with 1 probes
+1: looking for aorourk at 35 with decrement 11
+	 found with 1 probes
+2: looking for blaisef at 19 with decrement 12
+	 found with 1 probes
+3: looking for cabrech at 8 with decrement 33
+	 found with 1 probes
+4: looking for camden8 at 10 with decrement 30
+	 found with 1 probes
+5: looking for cbelli at 42 with decrement 10
+	 found with 1 probes
+6: looking for cetuck at 23 with decrement 25
+	 found with 2 probes
+7: looking for cfkowal at 0 with decrement 20
+	 found with 1 probes
+8: looking for cgs5 at 23 with decrement 23
+	 found with 1 probes
+9: looking for cjmtchl at 3 with decrement 14
+	 found with 1 probes
+10: looking for dbsilva at 46 with decrement 36
+	 found with 1 probes
+11: looking for dmcamp at 26 with decrement 42
+	 found with 2 probes
+12: looking for dyi at 10 with decrement 31
+	 found with 5 probes
+13: looking for edsumne at 42 with decrement 26
+	 found with 6 probes
+14: looking for elmitch at 16 with decrement 16
+	 found with 1 probes
+15: looking for girons at 15 with decrement 7
+	 found with 3 probes
+16: looking for gmoore4 at 21 with decrement 5
+	 found with 1 probes
+17: looking for gvitell at 37 with decrement 5
+	 found with 4 probes
+18: looking for hjpower at 8 with decrement 7
+	 found with 3 probes
+19: looking for hraviva at 35 with decrement 3
+	 found with 2 probes
+20: looking for jagarwa at 3 with decrement 32
+	 found with 2 probes
+21: looking for jbowma3 at 9 with decrement 5
+	 found with 1 probes
+22: looking for jbpage at 36 with decrement 9
+	 found with 6 probes
+23: looking for jkaeppl at 33 with decrement 12
+	 found with 1 probes
+24: looking for kguerns at 13 with decrement 5
+	 found with 1 probes
+25: looking for marilyt at 26 with decrement 45
+	 found with 1 probes
+26: looking for mjraymo at 34 with decrement 18
+	 found with 1 probes
+27: looking for mvmorri at 46 with decrement 12
+	 found with 9 probes
+28: looking for pabera at 38 with decrement 8
+	 found with 4 probes
+29: looking for pcashle at 5 with decrement 45
+	 found with 1 probes
+30: looking for rhende3 at 18 with decrement 18
+	 not found with 6 probes
+31: looking for rtmaune at 36 with decrement 6
+	 found with 2 probes
+32: looking for sbrenn at 15 with decrement 4
+	 found with 2 probes
+33: looking for schlese at 24 with decrement 14
+	 found with 3 probes
+34: looking for slcobb at 33 with decrement 45
+	 found with 3 probes
+35: looking for stm3 at 15 with decrement 29
+	 found with 1 probes
+36: looking for tndoniq at 41 with decrement 16
+	 found with 2 probes
+37: looking for witt5 at 7 with decrement 17
+	 found with 1 probes
+38: looking for zblack3 at 32 with decrement 43
+	 found with 3 probes
+39: looking for zgmoser at 10 with decrement 33
+	 found with 2 probes
+40: looking for zsantar at 40 with decrement 16
+	 found with 4 probes
+41: looking for xai at 36 with decrement 10
+	 found with 1 probes
+42: looking for harlanr at 9 with decrement 14
+	 not found with 2 probes
+Found 41 of the class keys. Did not find 2
+  After rehash, time=0.012
+   Measured avg probes for successful search=2.2619, trials=42
+   Measured avg probes for unsuccessful search=7, trials=2
+----- End of equilibrium test -----
+
+Table size (47), load factor (0.9)
+Separate chaining
+Seed: 12042023
+
+----- Equilibrium test driver -----
+  Trials: 2
+  Build table with 42 random keys
+0: marilyt, h: 26
+1: elmitch, h: 16
+2: jkaeppl, h: 33
+3: cetuck, h: 23
+4: witt5, h: 7
+5: edsumne, h: 42
+6: cfkowal, h: 0
+7: jbpage, h: 36
+8: pcashle, h: 5
+9: cjmtchl, h: 3
+10: cabrech, h: 8
+11: girons, h: 15
+12: pabera, h: 38
+13: gmoore4, h: 21
+14: jagarwa, h: 3
+15: sbrenn, h: 15
+16: mjraymo, h: 34
+17: zsantar, h: 40
+18: stm3, h: 15
+19: zblack3, h: 32
+20: schlese, h: 24
+21: tndoniq, h: 41
+22: agpatel, h: 29
+23: slcobb, h: 33
+24: blaisef, h: 19
+25: jbowma3, h: 9
+26: cbelli, h: 42
+27: rtmaune, h: 36
+28: hraviva, h: 35
+29: kguerns, h: 13
+30: cgs5, h: 23
+31: gvitell, h: 37
+32: camden8, h: 10
+33: rhende3, h: 18
+34: aorourk, h: 35
+35: dyi, h: 10
+36: dmcamp, h: 26
+37: mvmorri, h: 46
+38: dbsilva, h: 46
+39: xai, h: 36
+40: zgmoser, h: 10
+41: hjpower, h: 8
+    The average number of probes for a successful search = 0.404762
+T->sc[0] cfkowal 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] cjmtchl → jagarwa 
+T->sc[4] ∅ 
+T->sc[5] pcashle 
+T->sc[6] ∅ 
+T->sc[7] witt5 
+T->sc[8] cabrech → hjpower 
+T->sc[9] jbowma3 
+T->sc[10] camden8 → dyi → zgmoser 
+T->sc[11] ∅ 
+T->sc[12] ∅ 
+T->sc[13] kguerns 
+T->sc[14] ∅ 
+T->sc[15] girons → sbrenn → stm3 
+T->sc[16] elmitch 
+T->sc[17] ∅ 
+T->sc[18] rhende3 
+T->sc[19] blaisef 
+T->sc[20] ∅ 
+T->sc[21] gmoore4 
+T->sc[22] ∅ 
+T->sc[23] cetuck → cgs5 
+T->sc[24] schlese 
+T->sc[25] ∅ 
+T->sc[26] marilyt → dmcamp 
+T->sc[27] ∅ 
+T->sc[28] ∅ 
+T->sc[29] agpatel 
+T->sc[30] ∅ 
+T->sc[31] ∅ 
+T->sc[32] zblack3 
+T->sc[33] jkaeppl → slcobb 
+T->sc[34] mjraymo 
+T->sc[35] hraviva → aorourk 
+T->sc[36] jbpage → rtmaune → xai 
+T->sc[37] gvitell 
+T->sc[38] pabera 
+T->sc[39] ∅ 
+T->sc[40] zsantar 
+T->sc[41] tndoniq 
+T->sc[42] edsumne → cbelli 
+T->sc[43] ∅ 
+T->sc[44] ∅ 
+T->sc[45] ∅ 
+T->sc[46] mvmorri → dbsilva 
+Trial 0, Delete Key witt5 removed
+Trial 1, Delete Key mjraymo removed
+Table after equilibrium trials
+T->sc[0] cfkowal 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] cjmtchl → jagarwa 
+T->sc[4] ∅ 
+T->sc[5] pcashle 
+T->sc[6] ∅ 
+T->sc[7] ∅ 
+T->sc[8] cabrech → hjpower 
+T->sc[9] jbowma3 
+T->sc[10] camden8 → dyi → zgmoser 
+T->sc[11] ∅ 
+T->sc[12] ∅ 
+T->sc[13] kguerns 
+T->sc[14] ∅ 
+T->sc[15] girons → sbrenn → stm3 
+T->sc[16] elmitch 
+T->sc[17] ∅ 
+T->sc[18] rhende3 
+T->sc[19] blaisef 
+T->sc[20] ∅ 
+T->sc[21] gmoore4 
+T->sc[22] ∅ 
+T->sc[23] cetuck → cgs5 
+T->sc[24] schlese 
+T->sc[25] ∅ 
+T->sc[26] marilyt → dmcamp 
+T->sc[27] ∅ 
+T->sc[28] ∅ 
+T->sc[29] agpatel 
+T->sc[30] ∅ 
+T->sc[31] ∅ 
+T->sc[32] zblack3 
+T->sc[33] jkaeppl → slcobb 
+T->sc[34] ∅ 
+T->sc[35] hraviva → aorourk 
+T->sc[36] jbpage → rtmaune → xai 
+T->sc[37] gvitell 
+T->sc[38] pabera 
+T->sc[39] ∅ 
+T->sc[40] zsantar 
+T->sc[41] tndoniq 
+T->sc[42] edsumne → cbelli 
+T->sc[43] ∅ 
+T->sc[44] ∅ 
+T->sc[45] ∅ 
+T->sc[46] mvmorri → dbsilva 
+  Keys added (0), removed (2) new size should be (40) and is (40)
+  After exercise, time=0.025 
+  successful searches during exercise=1, trials=2
+  unsuccessful searches during exercise=-nan, trials=0
+  After retrieve experiment, time=0.012
+  New load factor = 0.851064
+  Percent empty locations marked deleted = 0
+   Measured avg probes for successful search=1.425, trials=40
+     ** This measure is biased.  See comments
+
+   Measured avg probes for unsuccessful search=1, trials=2
+
+	Run with table size at least 101 (-m 101).  Try -m 65537 and 655373
+
+Start looking for class keys
+0: looking for agpatel at 29
+	 found with 1 probes
+1: looking for aorourk at 35
+	 found with 2 probes
+2: looking for blaisef at 19
+	 found with 1 probes
+3: looking for cabrech at 8
+	 found with 1 probes
+4: looking for camden8 at 10
+	 found with 1 probes
+5: looking for cbelli at 42
+	 found with 2 probes
+6: looking for cetuck at 23
+	 found with 1 probes
+7: looking for cfkowal at 0
+	 found with 1 probes
+8: looking for cgs5 at 23
+	 found with 2 probes
+9: looking for cjmtchl at 3
+	 found with 1 probes
+10: looking for dbsilva at 46
+	 found with 2 probes
+11: looking for dmcamp at 26
+	 found with 2 probes
+12: looking for dyi at 10
+	 found with 2 probes
+13: looking for edsumne at 42
+	 found with 1 probes
+14: looking for elmitch at 16
+	 found with 1 probes
+15: looking for girons at 15
+	 found with 1 probes
+16: looking for gmoore4 at 21
+	 found with 1 probes
+17: looking for gvitell at 37
+	 found with 1 probes
+18: looking for hjpower at 8
+	 found with 2 probes
+19: looking for hraviva at 35
+	 found with 1 probes
+20: looking for jagarwa at 3
+	 found with 2 probes
+21: looking for jbowma3 at 9
+	 found with 1 probes
+22: looking for jbpage at 36
+	 found with 1 probes
+23: looking for jkaeppl at 33
+	 found with 1 probes
+24: looking for kguerns at 13
+	 found with 1 probes
+25: looking for marilyt at 26
+	 found with 1 probes
+26: looking for mjraymo at 34
+	 not found with 0 probes
+27: looking for mvmorri at 46
+	 found with 1 probes
+28: looking for pabera at 38
+	 found with 1 probes
+29: looking for pcashle at 5
+	 found with 1 probes
+30: looking for rhende3 at 18
+	 found with 1 probes
+31: looking for rtmaune at 36
+	 found with 2 probes
+32: looking for sbrenn at 15
+	 found with 2 probes
+33: looking for schlese at 24
+	 found with 1 probes
+34: looking for slcobb at 33
+	 found with 2 probes
+35: looking for stm3 at 15
+	 found with 3 probes
+36: looking for tndoniq at 41
+	 found with 1 probes
+37: looking for witt5 at 7
+	 not found with 0 probes
+38: looking for zblack3 at 32
+	 found with 1 probes
+39: looking for zgmoser at 10
+	 found with 3 probes
+40: looking for zsantar at 40
+	 found with 1 probes
+41: looking for xai at 36
+	 found with 3 probes
+42: looking for harlanr at 9
+	 not found with 1 probes
+Found 40 of the class keys. Did not find 3
+  Rehash table
+Start looking for class keys
+0: looking for agpatel at 29
+	 found with 1 probes
+1: looking for aorourk at 35
+	 found with 2 probes
+2: looking for blaisef at 19
+	 found with 1 probes
+3: looking for cabrech at 8
+	 found with 1 probes
+4: looking for camden8 at 10
+	 found with 1 probes
+5: looking for cbelli at 42
+	 found with 2 probes
+6: looking for cetuck at 23
+	 found with 1 probes
+7: looking for cfkowal at 0
+	 found with 1 probes
+8: looking for cgs5 at 23
+	 found with 2 probes
+9: looking for cjmtchl at 3
+	 found with 1 probes
+10: looking for dbsilva at 46
+	 found with 2 probes
+11: looking for dmcamp at 26
+	 found with 2 probes
+12: looking for dyi at 10
+	 found with 2 probes
+13: looking for edsumne at 42
+	 found with 1 probes
+14: looking for elmitch at 16
+	 found with 1 probes
+15: looking for girons at 15
+	 found with 1 probes
+16: looking for gmoore4 at 21
+	 found with 1 probes
+17: looking for gvitell at 37
+	 found with 1 probes
+18: looking for hjpower at 8
+	 found with 2 probes
+19: looking for hraviva at 35
+	 found with 1 probes
+20: looking for jagarwa at 3
+	 found with 2 probes
+21: looking for jbowma3 at 9
+	 found with 1 probes
+22: looking for jbpage at 36
+	 found with 1 probes
+23: looking for jkaeppl at 33
+	 found with 1 probes
+24: looking for kguerns at 13
+	 found with 1 probes
+25: looking for marilyt at 26
+	 found with 1 probes
+26: looking for mjraymo at 34
+	 not found with 0 probes
+27: looking for mvmorri at 46
+	 found with 1 probes
+28: looking for pabera at 38
+	 found with 1 probes
+29: looking for pcashle at 5
+	 found with 1 probes
+30: looking for rhende3 at 18
+	 found with 1 probes
+31: looking for rtmaune at 36
+	 found with 2 probes
+32: looking for sbrenn at 15
+	 found with 2 probes
+33: looking for schlese at 24
+	 found with 1 probes
+34: looking for slcobb at 33
+	 found with 2 probes
+35: looking for stm3 at 15
+	 found with 3 probes
+36: looking for tndoniq at 41
+	 found with 1 probes
+37: looking for witt5 at 7
+	 not found with 0 probes
+38: looking for zblack3 at 32
+	 found with 1 probes
+39: looking for zgmoser at 10
+	 found with 3 probes
+40: looking for zsantar at 40
+	 found with 1 probes
+41: looking for xai at 36
+	 found with 3 probes
+42: looking for harlanr at 9
+	 not found with 1 probes
+Found 40 of the class keys. Did not find 3
+  After rehash, time=0.011
+   Measured avg probes for successful search=1.425, trials=40
+   Measured avg probes for unsuccessful search=0.5, trials=2
+----- End of equilibrium test -----
+
+Table size (655373), load factor (0.9)
+Open addressing with linear probe sequence
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 589835 random keys
+    The average number of probes for a successful search = 4.46661
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 10 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 19 probes (this is rare!)
+		 FOUND with 28 probes (this is rare!)
+		 FOUND with 14 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 9 probes (this is rare!)
+		 FOUND with 13 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 7 probes (this is rare!)
+		 FOUND with 12 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 3 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 4 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 6 probes (this is rare!)
+		 FOUND with 4 probes (this is rare!)
+		 FOUND with 3 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 4.875 measured with 32 trials
+    Avg probes for unsuccessful search = 48.5085 measured with 49968 trials
+--- Linear probe sequence performance formulas ---
+    Expected probes for successful search 5.5
+    Expected probes for unsuccessful search 50.5
+Start looking for class keys
+    Avg probes for successful search = 2.93023 measured with 43 trials
+----- End of access driver -----
+
+Table size (655373), load factor (0.7)
+Open addressing with linear probe sequence
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 458761 random keys
+    The average number of probes for a successful search = 1.15362
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 3 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 1.36364 measured with 11 trials
+    Avg probes for unsuccessful search = 5.15035 measured with 49989 trials
+--- Linear probe sequence performance formulas ---
+    Expected probes for successful search 2.16667
+    Expected probes for unsuccessful search 6.05556
+Start looking for class keys
+    Avg probes for successful search = 1.67442 measured with 43 trials
+----- End of access driver -----
+
+Table size (655373), load factor (0.5)
+Open addressing with linear probe sequence
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 327686 random keys
+    The average number of probes for a successful search = 0.496573
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 3 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 5 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 1.61538 measured with 13 trials
+    Avg probes for unsuccessful search = 1.49175 measured with 49987 trials
+--- Linear probe sequence performance formulas ---
+    Expected probes for successful search 1.5
+    Expected probes for unsuccessful search 2.5
+Start looking for class keys
+    Avg probes for successful search = 1.30233 measured with 43 trials
+----- End of access driver -----
+
+Table size (655373), load factor (0.3)
+Open addressing with linear probe sequence
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 196611 random keys
+    The average number of probes for a successful search = 0.211768
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 1 measured with 8 trials
+    Avg probes for unsuccessful search = 0.521863 measured with 49992 trials
+--- Linear probe sequence performance formulas ---
+    Expected probes for successful search 1.21429
+    Expected probes for unsuccessful search 1.52041
+Start looking for class keys
+    Avg probes for successful search = 1.11628 measured with 43 trials
+----- End of access driver -----
+
+Table size (655373), load factor (0.1)
+Open addressing with linear probe sequence
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 65537 random keys
+    The average number of probes for a successful search = 0.0554954
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 1 measured with 3 trials
+    Avg probes for unsuccessful search = 0.112487 measured with 49997 trials
+--- Linear probe sequence performance formulas ---
+    Expected probes for successful search 1.05556
+    Expected probes for unsuccessful search 1.11728
+Start looking for class keys
+    Avg probes for successful search = 1.04651 measured with 43 trials
+----- End of access driver -----
+
+Table size (655373), load factor (0.9)
+Open addressing with double hashing
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 589835 random keys
+    The average number of probes for a successful search = 1.55956
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 3 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 3 probes (this is rare!)
+		 FOUND with 24 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 5 probes (this is rare!)
+		 FOUND with 10 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 4 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 3 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 6 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 13 probes (this is rare!)
+		 FOUND with 7 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 3.28125 measured with 32 trials
+    Avg probes for unsuccessful search = 9.04175 measured with 49968 trials
+--- Double hashing performance formulas ---
+    Expected probes for successful search 2.55843
+    Expected probes for unsuccessful search 10
+Start looking for class keys
+    Avg probes for successful search = 2.65116 measured with 43 trials
+----- End of access driver -----
+
+Table size (655373), load factor (0.7)
+Open addressing with double hashing
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 458761 random keys
+    The average number of probes for a successful search = 0.724026
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 1.27273 measured with 11 trials
+    Avg probes for unsuccessful search = 2.34039 measured with 49989 trials
+--- Double hashing performance formulas ---
+    Expected probes for successful search 1.71996
+    Expected probes for unsuccessful search 3.33333
+Start looking for class keys
+    Avg probes for successful search = 1.7907 measured with 43 trials
+----- End of access driver -----
+
+Table size (655373), load factor (0.5)
+Open addressing with double hashing
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 327686 random keys
+    The average number of probes for a successful search = 0.38734
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 4 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 3 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 1.53846 measured with 13 trials
+    Avg probes for unsuccessful search = 1.00762 measured with 49987 trials
+--- Double hashing performance formulas ---
+    Expected probes for successful search 1.38629
+    Expected probes for unsuccessful search 2
+Start looking for class keys
+    Avg probes for successful search = 1.23256 measured with 43 trials
+----- End of access driver -----
+
+Table size (655373), load factor (0.3)
+Open addressing with double hashing
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 196611 random keys
+    The average number of probes for a successful search = 0.187721
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 1 measured with 8 trials
+    Avg probes for unsuccessful search = 0.433049 measured with 49992 trials
+--- Double hashing performance formulas ---
+    Expected probes for successful search 1.18892
+    Expected probes for unsuccessful search 1.42857
+Start looking for class keys
+    Avg probes for successful search = 1.09302 measured with 43 trials
+----- End of access driver -----
+
+Table size (655373), load factor (0.1)
+Open addressing with double hashing
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 65537 random keys
+    The average number of probes for a successful search = 0.0543662
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 1 measured with 3 trials
+    Avg probes for unsuccessful search = 0.108367 measured with 49997 trials
+--- Double hashing performance formulas ---
+    Expected probes for successful search 1.05361
+    Expected probes for unsuccessful search 1.11111
+Start looking for class keys
+    Avg probes for successful search = 1.04651 measured with 43 trials
+----- End of access driver -----
+
+Table size (655373), load factor (0.9)
+Separate chaining
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 589835 random keys
+    The average number of probes for a successful search = 0.449039
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 4 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 3 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 1.53125 measured with 32 trials
+    Avg probes for unsuccessful search = 0.903878 measured with 49968 trials
+--- Separate chaining performance formulas ---
+    Expected probes for successful search 1.45
+    Expected probes for unsuccessful search 0.9
+Start looking for class keys
+    Avg probes for successful search = 1.39535 measured with 43 trials
+----- End of access driver -----
+
+Table size (655373), load factor (0.7)
+Separate chaining
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 458761 random keys
+    The average number of probes for a successful search = 0.348465
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 1.18182 measured with 11 trials
+    Avg probes for unsuccessful search = 0.702975 measured with 49989 trials
+--- Separate chaining performance formulas ---
+    Expected probes for successful search 1.35
+    Expected probes for unsuccessful search 0.7
+Start looking for class keys
+    Avg probes for successful search = 1.30233 measured with 43 trials
+----- End of access driver -----
+
+Table size (655373), load factor (0.5)
+Separate chaining
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 327686 random keys
+    The average number of probes for a successful search = 0.249828
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 2 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 1.23077 measured with 13 trials
+    Avg probes for unsuccessful search = 0.49897 measured with 49987 trials
+--- Separate chaining performance formulas ---
+    Expected probes for successful search 1.25
+    Expected probes for unsuccessful search 0.5
+Start looking for class keys
+    Avg probes for successful search = 1.2093 measured with 43 trials
+----- End of access driver -----
+
+Table size (655373), load factor (0.3)
+Separate chaining
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 196611 random keys
+    The average number of probes for a successful search = 0.14874
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 1 measured with 8 trials
+    Avg probes for unsuccessful search = 0.303649 measured with 49992 trials
+--- Separate chaining performance formulas ---
+    Expected probes for successful search 1.15
+    Expected probes for unsuccessful search 0.3
+Start looking for class keys
+    Avg probes for successful search = 1.09302 measured with 43 trials
+----- End of access driver -----
+
+Table size (655373), load factor (0.1)
+Separate chaining
+Seed: 12042023
+
+----- Retrieve driver -----
+  Trials: 50000
+  Build table with 65537 random keys
+    The average number of probes for a successful search = 0.0501549
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+		 FOUND with 1 probes (this is rare!)
+    Avg probes for successful search = 1 measured with 3 trials
+    Avg probes for unsuccessful search = 0.0962058 measured with 49997 trials
+--- Separate chaining performance formulas ---
+    Expected probes for successful search 1.05
+    Expected probes for unsuccessful search 0.1
+Start looking for class keys
+    Avg probes for successful search = 1.04651 measured with 43 trials
+----- End of access driver -----
+
+Table size (65537), load factor (0.9)
+Open addressing with linear probe sequence
+Seed: 12042023
+
+----- Equilibrium test driver -----
+  Trials: 100000
+  Build table with 58983 random keys
+    The average number of probes for a successful search = 4.77955
+  Keys added (50058), removed (49936) new size should be (59105) and is (59105)
+  After exercise, time=212.847 
+  successful searches during exercise=11.8132, trials=49942
+  unsuccessful searches during exercise=410.106, trials=50058
+  After retrieve experiment, time=897.781
+  New load factor = 0.901857
+  Percent empty locations marked deleted = 98.2587
+   Measured avg probes for successful search=15.4387, trials=59105
+   Measured avg probes for unsuccessful search=1129.79, trials=99995
+    Do deletions increase avg number of probes?
+--- Linear probe sequence performance formulas ---
+    Expected probes for successful search 5.59461
+    Expected probes for unsuccessful search 52.41
+Found 22 of the class keys. Did not find 21
+  Rehash table
+Found 22 of the class keys. Did not find 21
+  After rehash, time=64.015
+   Measured avg probes for successful search=5.73806, trials=59105
+   Measured avg probes for unsuccessful search=51.04, trials=99999
+----- End of equilibrium test -----
+
+Table size (65537), load factor (0.9)
+Open addressing with double hashing
+Seed: 12042023
+
+----- Equilibrium test driver -----
+  Trials: 100000
+  Build table with 58983 random keys
+    The average number of probes for a successful search = 1.57383
+  Keys added (49805), removed (50190) new size should be (58598) and is (58598)
+  After exercise, time=1092.91 
+  successful searches during exercise=4.88722, trials=50195
+  unsuccessful searches during exercise=1519.03, trials=49805
+  After retrieve experiment, time=12239.7
+  New load factor = 0.894121
+  Percent empty locations marked deleted = 99.9135
+   Measured avg probes for successful search=6.64867, trials=58598
+   Measured avg probes for unsuccessful search=9401.07, trials=99995
+    Do deletions increase avg number of probes?
+--- Double hashing performance formulas ---
+    Expected probes for successful search 2.51136
+    Expected probes for unsuccessful search 9.44473
+Found 22 of the class keys. Did not find 21
+  Rehash table
+Found 22 of the class keys. Did not find 21
+  After rehash, time=44.213
+   Measured avg probes for successful search=2.5205, trials=58598
+   Measured avg probes for unsuccessful search=8.4436, trials=99999
+----- End of equilibrium test -----
+
+Table size (65537), load factor (0.9)
+Separate chaining
+Seed: 12042023
+
+----- Equilibrium test driver -----
+  Trials: 100000
+  Build table with 58983 random keys
+    The average number of probes for a successful search = 0.449791
+  Keys added (49923), removed (50075) new size should be (58831) and is (58831)
+  After exercise, time=21.056 
+  successful searches during exercise=1.00004, trials=50077
+  unsuccessful searches during exercise=0.90247, trials=49923
+  After retrieve experiment, time=27.779
+  New load factor = 0.897676
+  Percent empty locations marked deleted = 0
+   Measured avg probes for successful search=1.65404, trials=58831
+     ** This measure is biased.  See comments
+
+   Measured avg probes for unsuccessful search=0.894436, trials=99996
+    Do deletions increase avg number of probes?
+--- Separate chaining performance formulas ---
+    Expected probes for successful search 1.44884
+    Expected probes for unsuccessful search 0.897676
+Found 21 of the class keys. Did not find 22
+  Rehash table
+Found 21 of the class keys. Did not find 22
+  After rehash, time=29.93
+   Measured avg probes for successful search=1.65404, trials=58831
+   Measured avg probes for unsuccessful search=0.895707, trials=99997
+----- End of equilibrium test -----
+
+Table size (20), load factor (0.9)
+Open addressing with linear probe sequence
+Seed: 12042023
+
+----- Rehash driver -----
+0: about to insert agpatel at position 18
+1: about to insert aorourk at position 19
+2: about to insert blaisef at position 18
+3: about to insert cabrech at position 8
+4: about to insert camden8 at position 16
+5: about to insert cbelli at position 3
+6: about to insert cetuck at position 7
+7: about to insert cfkowal at position 11
+8: about to insert cgs5 at position 18
+9: about to insert cjmtchl at position 1
+10: about to insert dbsilva at position 17
+11: about to insert dmcamp at position 14
+12: about to insert dyi at position 18
+13: about to insert edsumne at position 9
+14: about to insert elmitch at position 6
+15: about to insert girons at position 6
+16: about to insert gmoore4 at position 17
+17: about to insert gvitell at position 7
+18: about to insert hjpower at position 19
+
+full table, last entry empty
+T->oa[0] ∅
+T->oa[1] cjmtchl
+T->oa[2] hjpower
+T->oa[3] cbelli
+T->oa[4] gvitell
+T->oa[5] girons
+T->oa[6] elmitch
+T->oa[7] cetuck
+T->oa[8] cabrech
+T->oa[9] edsumne
+T->oa[10] gmoore4
+T->oa[11] cfkowal
+T->oa[12] dyi
+T->oa[13] dmcamp
+T->oa[14] dbsilva
+T->oa[15] cgs5
+T->oa[16] camden8
+T->oa[17] blaisef
+T->oa[18] agpatel
+T->oa[19] aorourk
+19 hraviva
+0: about to retrieve and then replace agpatel
+1: about to retrieve and then replace aorourk
+2: about to retrieve and then replace blaisef
+3: about to retrieve and then replace cabrech
+4: about to retrieve and then replace camden8
+5: about to retrieve and then replace cbelli
+6: about to retrieve and then replace cetuck
+7: about to retrieve and then replace cfkowal
+8: about to retrieve and then replace cgs5
+9: about to retrieve and then replace cjmtchl
+10: about to retrieve and then replace dbsilva
+11: about to retrieve and then replace dmcamp
+12: about to retrieve and then replace dyi
+13: about to retrieve and then replace edsumne
+14: about to retrieve and then replace elmitch
+15: about to retrieve and then replace girons
+16: about to retrieve and then replace gmoore4
+17: about to retrieve and then replace gvitell
+18: about to retrieve and then replace hjpower
+about to delete aorourk
+
+table should have one empty and one delete positions
+T->oa[0] ∅
+T->oa[1] cjmtchl
+T->oa[2] hjpower
+T->oa[3] cbelli
+T->oa[4] gvitell
+T->oa[5] girons
+T->oa[6] elmitch
+T->oa[7] cetuck
+T->oa[8] cabrech
+T->oa[9] edsumne
+T->oa[10] gmoore4
+T->oa[11] cfkowal
+T->oa[12] dyi
+T->oa[13] dmcamp
+T->oa[14] dbsilva
+T->oa[15] cgs5
+T->oa[16] camden8
+T->oa[17] blaisef
+T->oa[18] agpatel
+T->oa[19] --del--
+
+ about to insert harlanr at 12
+
+ after clearing out all but two keys
+T->oa[0] harlanr
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] --del--
+T->oa[5] --del--
+T->oa[6] --del--
+T->oa[7] --del--
+T->oa[8] --del--
+T->oa[9] --del--
+T->oa[10] --del--
+T->oa[11] --del--
+T->oa[12] --del--
+T->oa[13] --del--
+T->oa[14] --del--
+T->oa[15] --del--
+T->oa[16] --del--
+T->oa[17] --del--
+T->oa[18] agpatel
+T->oa[19] --del--
+
+ about to insert 'abcdefg' at 4
+
+ after inserting into delete or empty position 
+T->oa[0] harlanr
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] abcdefg
+T->oa[5] --del--
+T->oa[6] --del--
+T->oa[7] --del--
+T->oa[8] --del--
+T->oa[9] --del--
+T->oa[10] --del--
+T->oa[11] --del--
+T->oa[12] --del--
+T->oa[13] --del--
+T->oa[14] --del--
+T->oa[15] --del--
+T->oa[16] --del--
+T->oa[17] --del--
+T->oa[18] agpatel
+T->oa[19] --del--
+
+ about to search for 'aaaaaaa' at 11
+
+ verify 5 items in table before rehash 
+T->oa[0] harlanr
+T->oa[1] --del--
+T->oa[2] --del--
+T->oa[3] --del--
+T->oa[4] abcdefg
+T->oa[5] --del--
+T->oa[6] --del--
+T->oa[7] --del--
+T->oa[8] cabrech
+T->oa[9] --del--
+T->oa[10] --del--
+T->oa[11] --del--
+T->oa[12] --del--
+T->oa[13] --del--
+T->oa[14] --del--
+T->oa[15] --del--
+T->oa[16] --del--
+T->oa[17] blaisef
+T->oa[18] agpatel
+T->oa[19] --del--
+
+table after rehash with 5 items
+table size: 20
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] ∅
+T->oa[3] ∅
+T->oa[4] abcdefg
+T->oa[5] ∅
+T->oa[6] ∅
+T->oa[7] ∅
+T->oa[8] cabrech
+T->oa[9] ∅
+T->oa[10] ∅
+T->oa[11] ∅
+T->oa[12] harlanr
+T->oa[13] ∅
+T->oa[14] ∅
+T->oa[15] ∅
+T->oa[16] ∅
+T->oa[17] agpatel
+T->oa[18] blaisef
+T->oa[19] ∅
+
+after increase table to 40 with 5 items
+T->oa[0] ∅
+T->oa[1] ∅
+T->oa[2] ∅
+T->oa[3] ∅
+T->oa[4] abcdefg
+T->oa[5] ∅
+T->oa[6] ∅
+T->oa[7] ∅
+T->oa[8] cabrech
+T->oa[9] ∅
+T->oa[10] ∅
+T->oa[11] ∅
+T->oa[12] ∅
+T->oa[13] ∅
+T->oa[14] ∅
+T->oa[15] ∅
+T->oa[16] ∅
+T->oa[17] ∅
+T->oa[18] ∅
+T->oa[19] ∅
+T->oa[20] ∅
+T->oa[21] ∅
+T->oa[22] ∅
+T->oa[23] ∅
+T->oa[24] ∅
+T->oa[25] ∅
+T->oa[26] ∅
+T->oa[27] ∅
+T->oa[28] ∅
+T->oa[29] ∅
+T->oa[30] ∅
+T->oa[31] ∅
+T->oa[32] harlanr
+T->oa[33] ∅
+T->oa[34] ∅
+T->oa[35] ∅
+T->oa[36] ∅
+T->oa[37] blaisef
+T->oa[38] agpatel
+T->oa[39] ∅
+
+after larger table filled
+T->oa[0] bish02Z
+T->oa[1] inttshmZ
+T->oa[2] sicwxhdZ
+T->oa[3] ynxr3wxZ
+T->oa[4] abcdefg
+T->oa[5] qtg50a9Z
+T->oa[6] gvf4boZ
+T->oa[7] hbd4677Z
+T->oa[8] cabrech
+T->oa[9] aqw5353Z
+T->oa[10] fmtih10Z
+T->oa[11] trv39p1Z
+T->oa[12] atuc9d2Z
+T->oa[13] ymfe1eZ
+T->oa[14] scb87wgZ
+T->oa[15] eig7hp1Z
+T->oa[16] rbh4x1mZ
+T->oa[17] tzs7d3Z
+T->oa[18] ijuf55Z
+T->oa[19] ∅
+T->oa[20] cfqy87pZ
+T->oa[21] ljo4rZ
+T->oa[22] vvm31m4Z
+T->oa[23] ioc2l0dZ
+T->oa[24] nuudi1pZ
+T->oa[25] jumt26fZ
+T->oa[26] fgie974Z
+T->oa[27] ixtspxqZ
+T->oa[28] fmlbe9Z
+T->oa[29] ghbhk2Z
+T->oa[30] cas70a3Z
+T->oa[31] vuyz379Z
+T->oa[32] harlanr
+T->oa[33] qkt0z5Z
+T->oa[34] nzzaszZ
+T->oa[35] wnxk809Z
+T->oa[36] rdtsk11Z
+T->oa[37] blaisef
+T->oa[38] agpatel
+T->oa[39] wyz75dlZ
+----- Passed rehash driver -----
+
+Table size (20), load factor (0.9)
+Open addressing with double hashing
+Seed: 12042023
+
+----- Rehash driver -----
+0: about to insert agpatel at position 18 with decrement 18
+1: about to insert aorourk at position 19 with decrement 3
+2: about to insert blaisef at position 18 with decrement 6
+3: about to insert cabrech at position 8 with decrement 4
+4: about to insert camden8 at position 16 with decrement 12
+5: about to insert cbelli at position 3 with decrement 17
+6: about to insert cetuck at position 7 with decrement 7
+7: about to insert cfkowal at position 11 with decrement 11
+8: about to insert cgs5 at position 18 with decrement 14
+9: about to insert cjmtchl at position 1 with decrement 15
+10: about to insert dbsilva at position 17 with decrement 11
+11: about to insert dmcamp at position 14 with decrement 2
+12: about to insert dyi at position 18 with decrement 1
+13: about to insert edsumne at position 9 with decrement 5
+14: about to insert elmitch at position 6 with decrement 6
+15: about to insert girons at position 6 with decrement 10
+repeated insert loop detected, exiting..
+lab6: lab6.c:445: RehashDriver: Assertion `code == 0' failed.
+./testing.sh: line 49: 87716 Aborted                 (core dumped) ./lab6 -b -m 20 -h double -v
+Table size (20), load factor (0.9)
+Separate chaining
+Seed: 12042023
+
+----- Rehash driver -----
+0: about to insert agpatel at position 18
+1: about to insert aorourk at position 19
+2: about to insert blaisef at position 18
+3: about to insert cabrech at position 8
+4: about to insert camden8 at position 16
+5: about to insert cbelli at position 3
+6: about to insert cetuck at position 7
+7: about to insert cfkowal at position 11
+8: about to insert cgs5 at position 18
+9: about to insert cjmtchl at position 1
+10: about to insert dbsilva at position 17
+11: about to insert dmcamp at position 14
+12: about to insert dyi at position 18
+13: about to insert edsumne at position 9
+14: about to insert elmitch at position 6
+15: about to insert girons at position 6
+16: about to insert gmoore4 at position 17
+17: about to insert gvitell at position 7
+18: about to insert hjpower at position 19
+
+full table, last entry empty
+T->sc[0] ∅ 
+T->sc[1] cjmtchl 
+T->sc[2] ∅ 
+T->sc[3] cbelli 
+T->sc[4] ∅ 
+T->sc[5] ∅ 
+T->sc[6] elmitch → girons 
+T->sc[7] cetuck → gvitell 
+T->sc[8] cabrech 
+T->sc[9] edsumne 
+T->sc[10] ∅ 
+T->sc[11] cfkowal 
+T->sc[12] ∅ 
+T->sc[13] ∅ 
+T->sc[14] dmcamp 
+T->sc[15] ∅ 
+T->sc[16] camden8 
+T->sc[17] dbsilva → gmoore4 
+T->sc[18] agpatel → blaisef → cgs5 → dyi 
+T->sc[19] aorourk → hjpower 
+19 hraviva
+0: about to retrieve and then replace agpatel
+1: about to retrieve and then replace aorourk
+2: about to retrieve and then replace blaisef
+3: about to retrieve and then replace cabrech
+4: about to retrieve and then replace camden8
+5: about to retrieve and then replace cbelli
+6: about to retrieve and then replace cetuck
+7: about to retrieve and then replace cfkowal
+8: about to retrieve and then replace cgs5
+9: about to retrieve and then replace cjmtchl
+10: about to retrieve and then replace dbsilva
+11: about to retrieve and then replace dmcamp
+12: about to retrieve and then replace dyi
+13: about to retrieve and then replace edsumne
+14: about to retrieve and then replace elmitch
+15: about to retrieve and then replace girons
+16: about to retrieve and then replace gmoore4
+17: about to retrieve and then replace gvitell
+18: about to retrieve and then replace hjpower
+about to delete aorourk
+
+table should have one empty and one delete positions
+T->sc[0] ∅ 
+T->sc[1] cjmtchl 
+T->sc[2] ∅ 
+T->sc[3] cbelli 
+T->sc[4] ∅ 
+T->sc[5] ∅ 
+T->sc[6] elmitch → girons 
+T->sc[7] cetuck → gvitell 
+T->sc[8] cabrech 
+T->sc[9] edsumne 
+T->sc[10] ∅ 
+T->sc[11] cfkowal 
+T->sc[12] ∅ 
+T->sc[13] ∅ 
+T->sc[14] dmcamp 
+T->sc[15] ∅ 
+T->sc[16] camden8 
+T->sc[17] dbsilva → gmoore4 
+T->sc[18] agpatel → blaisef → cgs5 → dyi 
+T->sc[19] hjpower 
+
+ about to insert harlanr at 12
+
+ after clearing out all but two keys
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] ∅ 
+T->sc[5] ∅ 
+T->sc[6] ∅ 
+T->sc[7] ∅ 
+T->sc[8] ∅ 
+T->sc[9] ∅ 
+T->sc[10] ∅ 
+T->sc[11] ∅ 
+T->sc[12] harlanr 
+T->sc[13] ∅ 
+T->sc[14] ∅ 
+T->sc[15] ∅ 
+T->sc[16] ∅ 
+T->sc[17] ∅ 
+T->sc[18] agpatel 
+T->sc[19] ∅ 
+
+ about to insert 'abcdefg' at 4
+
+ after inserting into delete or empty position 
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] abcdefg 
+T->sc[5] ∅ 
+T->sc[6] ∅ 
+T->sc[7] ∅ 
+T->sc[8] ∅ 
+T->sc[9] ∅ 
+T->sc[10] ∅ 
+T->sc[11] ∅ 
+T->sc[12] harlanr 
+T->sc[13] ∅ 
+T->sc[14] ∅ 
+T->sc[15] ∅ 
+T->sc[16] ∅ 
+T->sc[17] ∅ 
+T->sc[18] agpatel 
+T->sc[19] ∅ 
+
+ about to search for 'aaaaaaa' at 11
+
+ verify 5 items in table before rehash 
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] abcdefg 
+T->sc[5] ∅ 
+T->sc[6] ∅ 
+T->sc[7] ∅ 
+T->sc[8] cabrech 
+T->sc[9] ∅ 
+T->sc[10] ∅ 
+T->sc[11] ∅ 
+T->sc[12] harlanr 
+T->sc[13] ∅ 
+T->sc[14] ∅ 
+T->sc[15] ∅ 
+T->sc[16] ∅ 
+T->sc[17] ∅ 
+T->sc[18] blaisef → agpatel 
+T->sc[19] ∅ 
+
+table after rehash with 5 items
+table size: 20
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] abcdefg 
+T->sc[5] ∅ 
+T->sc[6] ∅ 
+T->sc[7] ∅ 
+T->sc[8] cabrech 
+T->sc[9] ∅ 
+T->sc[10] ∅ 
+T->sc[11] ∅ 
+T->sc[12] harlanr 
+T->sc[13] ∅ 
+T->sc[14] ∅ 
+T->sc[15] ∅ 
+T->sc[16] ∅ 
+T->sc[17] ∅ 
+T->sc[18] blaisef → agpatel 
+T->sc[19] ∅ 
+
+after increase table to 40 with 5 items
+T->sc[0] ∅ 
+T->sc[1] ∅ 
+T->sc[2] ∅ 
+T->sc[3] ∅ 
+T->sc[4] abcdefg 
+T->sc[5] ∅ 
+T->sc[6] ∅ 
+T->sc[7] ∅ 
+T->sc[8] cabrech 
+T->sc[9] ∅ 
+T->sc[10] ∅ 
+T->sc[11] ∅ 
+T->sc[12] ∅ 
+T->sc[13] ∅ 
+T->sc[14] ∅ 
+T->sc[15] ∅ 
+T->sc[16] ∅ 
+T->sc[17] ∅ 
+T->sc[18] ∅ 
+T->sc[19] ∅ 
+T->sc[20] ∅ 
+T->sc[21] ∅ 
+T->sc[22] ∅ 
+T->sc[23] ∅ 
+T->sc[24] ∅ 
+T->sc[25] ∅ 
+T->sc[26] ∅ 
+T->sc[27] ∅ 
+T->sc[28] ∅ 
+T->sc[29] ∅ 
+T->sc[30] ∅ 
+T->sc[31] ∅ 
+T->sc[32] harlanr 
+T->sc[33] ∅ 
+T->sc[34] ∅ 
+T->sc[35] ∅ 
+T->sc[36] ∅ 
+T->sc[37] ∅ 
+T->sc[38] blaisef → agpatel 
+T->sc[39] ∅ 
+
+after larger table filled
+T->sc[0] wyz75dlZ 
+T->sc[1] inttshmZ 
+T->sc[2] bish02Z 
+T->sc[3] ∅ 
+T->sc[4] abcdefg → sicwxhdZ 
+T->sc[5] qtg50a9Z → ynxr3wxZ 
+T->sc[6] ∅ 
+T->sc[7] ∅ 
+T->sc[8] cabrech → hbd4677Z 
+T->sc[9] ∅ 
+T->sc[10] gvf4boZ 
+T->sc[11] trv39p1Z → fmtih10Z → aqw5353Z 
+T->sc[12] ∅ 
+T->sc[13] ∅ 
+T->sc[14] atuc9d2Z 
+T->sc[15] eig7hp1Z → scb87wgZ 
+T->sc[16] rbh4x1mZ 
+T->sc[17] tzs7d3Z → ymfe1eZ 
+T->sc[18] ijuf55Z 
+T->sc[19] ∅ 
+T->sc[20] cfqy87pZ 
+T->sc[21] ljo4rZ 
+T->sc[22] ∅ 
+T->sc[23] ioc2l0dZ 
+T->sc[24] nuudi1pZ → vvm31m4Z 
+T->sc[25] ∅ 
+T->sc[26] ∅ 
+T->sc[27] ixtspxqZ 
+T->sc[28] ∅ 
+T->sc[29] ∅ 
+T->sc[30] ∅ 
+T->sc[31] ∅ 
+T->sc[32] harlanr → ghbhk2Z → jumt26fZ 
+T->sc[33] qkt0z5Z → fmlbe9Z → fgie974Z 
+T->sc[34] nzzaszZ 
+T->sc[35] wnxk809Z → vuyz379Z 
+T->sc[36] rdtsk11Z → cas70a3Z 
+T->sc[37] ∅ 
+T->sc[38] blaisef → agpatel 
+T->sc[39] ∅ 
+----- Passed rehash driver -----
+
+

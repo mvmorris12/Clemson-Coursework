@@ -1,0 +1,1113 @@
+Leaderboard lists the top 5 access points
+Leaders  : ADD sta; REMOVE sta; FIND sta; INC sta; DEC sta, REMOVEALL; PRINT
+Queue    : JOINQ sta; MOVEQTOL; PRINTQ
+         : STATS; QUIT
+# #####################################################################
+# #####################################################################
+# Test 1: Show that PRINT, STATS, REMOVE, and REMOVEALL work with no items in the list.
+Leaderboard list records:  0, Queue list records: 0
+Leaderboard is empty
+
+Remove did not find: 1111
+No stations found
+# 
+# 
+# 
+# 
+# #####################################################################
+# #####################################################################
+# Test 2: Show that PRINT, STATS, REMOVE, and REMOVEALL work with 1 through 5 items in the list. 
+# 
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 1111
+# 
+Leaderboard list records:  1, Queue list records: 0
+Leaderboard has 1 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+
+# 
+# 
+# ############################
+# Remove one list item with REMOVE
+# 
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Rejected 1111 already in list
+# 
+# 
+Removed: 1111
+mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+# 
+Leaderboard list records:  0, Queue list records: 0
+Leaderboard is empty
+
+# 
+# 
+# ############################
+# Remove one list item with REMOVEALL
+# 
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 1111
+# 
+Leaderboard list records:  1, Queue list records: 0
+Leaderboard has 1 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+
+# 
+Removed 1 station
+# 
+Leaderboard list records:  0, Queue list records: 0
+Leaderboard is empty
+
+# 
+# ############################
+# Remove two list items with REMOVE
+# 
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 1111
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 2222
+# 
+# 
+Leaderboard list records:  2, Queue list records: 0
+Leaderboard has 2 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+
+# 
+Removed: 1111
+mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+# 
+Leaderboard list records:  1, Queue list records: 0
+Leaderboard has 1 records
+0: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+
+# 
+Removed: 2222
+mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+# 
+Leaderboard list records:  0, Queue list records: 0
+Leaderboard is empty
+
+# 
+# ############################
+# Remove two list items with REMOVEALL
+# 
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 1111
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 2222
+# 
+# 
+Leaderboard list records:  2, Queue list records: 0
+Leaderboard has 2 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+
+# 
+Removed 2 stations
+# 
+Leaderboard list records:  0, Queue list records: 0
+Leaderboard is empty
+
+# 
+# 
+# ############################
+# Remove three list items with REMOVE
+# 
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 1111
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 2222
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 3333
+# 
+# 
+Leaderboard list records:  3, Queue list records: 0
+Leaderboard has 3 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+Removed: 1111
+mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+# 
+Leaderboard list records:  2, Queue list records: 0
+Leaderboard has 2 records
+0: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+1: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+Removed: 2222
+mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+# 
+Leaderboard list records:  1, Queue list records: 0
+Leaderboard has 1 records
+0: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+Removed: 3333
+mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+# 
+Leaderboard list records:  0, Queue list records: 0
+Leaderboard is empty
+
+# 
+# ############################
+# Remove three list items with REMOVEALL
+# 
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 1111
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 2222
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 3333
+# 
+Leaderboard list records:  3, Queue list records: 0
+Leaderboard has 3 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+Removed 3 stations
+# 
+Leaderboard list records:  0, Queue list records: 0
+Leaderboard is empty
+
+# 
+# 
+# ############################
+# Remove four list items with REMOVE
+# 
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 1111
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 2222
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 3333
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 4444
+# 
+# 
+Leaderboard list records:  4, Queue list records: 0
+Leaderboard has 4 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+
+# 
+Removed: 1111
+mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+# 
+Leaderboard list records:  3, Queue list records: 0
+Leaderboard has 3 records
+0: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+1: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+2: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+
+# 
+Removed: 2222
+mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+# 
+Leaderboard list records:  2, Queue list records: 0
+Leaderboard has 2 records
+0: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+1: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+
+# 
+Removed: 3333
+mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+# 
+Leaderboard list records:  1, Queue list records: 0
+Leaderboard has 1 records
+0: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+
+# 
+Removed: 4444
+mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+# 
+Leaderboard list records:  0, Queue list records: 0
+Leaderboard is empty
+
+# 
+# ############################
+# Remove four list items with REMOVEALL
+# 
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 1111
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 2222
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 3333
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 4444
+# 
+Leaderboard list records:  4, Queue list records: 0
+Leaderboard has 4 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+
+# 
+Removed 4 stations
+# 
+Leaderboard list records:  0, Queue list records: 0
+Leaderboard is empty
+
+# 
+# 
+# ############################
+# Remove five list items with REMOVE
+# 
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 1111
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 2222
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 3333
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 4444
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 5555
+# 
+# 
+Leaderboard list records:  5, Queue list records: 0
+Leaderboard has 5 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+4: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+Removed: 1111
+mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+# 
+Leaderboard list records:  4, Queue list records: 0
+Leaderboard has 4 records
+0: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+1: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+2: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+3: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+Removed: 2222
+mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+# 
+Leaderboard list records:  3, Queue list records: 0
+Leaderboard has 3 records
+0: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+1: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+2: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+Removed: 3333
+mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+# 
+Leaderboard list records:  2, Queue list records: 0
+Leaderboard has 2 records
+0: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+1: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+Removed: 4444
+mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+# 
+Leaderboard list records:  1, Queue list records: 0
+Leaderboard has 1 records
+0: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+Removed: 5555
+mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+# 
+Leaderboard list records:  0, Queue list records: 0
+Leaderboard is empty
+
+# 
+# ############################
+# Remove five list items with REMOVEALL
+# 
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 1111
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 2222
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 3333
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 4444
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 5555
+# 
+Leaderboard list records:  5, Queue list records: 0
+Leaderboard has 5 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+4: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+Removed 5 stations
+# 
+Leaderboard list records:  0, Queue list records: 0
+Leaderboard is empty
+
+# 
+# 
+# 
+# 
+# 
+# #####################################################################
+# #####################################################################
+# Test 3: Show that the INC, DEC, and internal sorting functions are working properly.
+# 
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 1111
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 2222
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 3333
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 4444
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 5555
+# 
+Leaderboard list records:  5, Queue list records: 0
+Leaderboard has 5 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+4: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+AP 4444 incremented to 1
+AP 4444 incremented to 2
+AP 4444 incremented to 3
+# 
+Leaderboard has 5 records
+0: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+1: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+2: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+3: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+4: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+AP 3333 incremented to 1
+AP 3333 incremented to 2
+# 
+Leaderboard has 5 records
+0: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+1: mc: 2,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+2: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+3: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+4: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+AP 3333 incremented to 3
+# 
+Leaderboard has 5 records
+0: mc: 3,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+1: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+2: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+3: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+4: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+AP 2222 incremented to 1
+AP 2222 incremented to 2
+# 
+Leaderboard has 5 records
+0: mc: 3,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+1: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+2: mc: 2,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+3: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+4: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+AP 2222 incremented to 3
+# 
+Leaderboard has 5 records
+0: mc: 3,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+1: mc: 3,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+2: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+3: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+4: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+AP 1111 incremented to 1
+AP 1111 incremented to 2
+AP 1111 incremented to 3
+AP 1111 incremented to 4
+AP 1111 incremented to 5
+# 
+Leaderboard has 5 records
+0: mc: 5,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 3,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 3,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+4: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+AP 5555 incremented to 1
+AP 5555 incremented to 2
+AP 5555 incremented to 3
+AP 5555 incremented to 4
+AP 5555 incremented to 5
+AP 5555 incremented to 6
+AP 5555 incremented to 7
+# 
+Leaderboard has 5 records
+0: mc: 7,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+1: mc: 5,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+2: mc: 3,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+3: mc: 3,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+4: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+
+# 
+AP 5555 decremented to 6
+AP 5555 decremented to 5
+# 
+Leaderboard has 5 records
+0: mc: 5,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 5,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+2: mc: 3,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+3: mc: 3,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+4: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+
+# 
+AP 5555 decremented to 4
+# 
+Leaderboard has 5 records
+0: mc: 5,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 4,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+2: mc: 3,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+3: mc: 3,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+4: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+
+# 
+AP 5555 decremented to 3
+# 
+Leaderboard has 5 records
+0: mc: 5,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 3,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 3,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+4: mc: 3,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+AP 1111 decremented to 4
+# 
+Leaderboard has 5 records
+0: mc: 4,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 3,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 3,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+4: mc: 3,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+AP 1111 decremented to 3
+# 
+Leaderboard has 5 records
+0: mc: 3,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 3,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 3,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+4: mc: 3,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+AP 1111 decremented to 2
+# 
+Leaderboard has 5 records
+0: mc: 3,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+1: mc: 3,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+2: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+3: mc: 3,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+4: mc: 2,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+
+# 
+AP 1111 decremented to 1
+AP 1111 decremented to 0
+Decrement for AP 1111 failed.  Count is already zero
+# 
+Leaderboard has 5 records
+0: mc: 3,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+1: mc: 3,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+2: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+3: mc: 3,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+4: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+
+# 
+AP 2222 decremented to 2
+AP 2222 decremented to 1
+AP 2222 decremented to 0
+Decrement for AP 2222 failed.  Count is already zero
+# 
+Leaderboard has 5 records
+0: mc: 3,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+1: mc: 3,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+2: mc: 3,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+3: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+4: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+
+# 
+Removed 5 stations
+# 
+# 
+# 
+# 
+# #####################################################################
+# #####################################################################
+# Test 4: Show that FIND works and displays the correct mobile count values.
+# 
+Leaderboard list records:  0, Queue list records: 0
+Leaderboard is empty
+
+# 
+Did not find access point with id: 1111
+Did not find access point with id: 2222
+Did not find access point with id: 3333
+Did not find access point with id: 4444
+Did not find access point with id: 5555
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 1111
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 2222
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 3333
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 4444
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Inserted 5555
+# 
+0 mobiles registered with AP 1111
+0 mobiles registered with AP 2222
+0 mobiles registered with AP 3333
+0 mobiles registered with AP 4444
+0 mobiles registered with AP 5555
+# 
+AP 1111 incremented to 1
+AP 1111 incremented to 2
+AP 1111 incremented to 3
+AP 1111 incremented to 4
+AP 1111 incremented to 5
+# 
+AP 2222 incremented to 1
+AP 2222 incremented to 2
+AP 2222 incremented to 3
+AP 2222 incremented to 4
+AP 2222 incremented to 5
+AP 2222 incremented to 6
+AP 2222 incremented to 7
+AP 2222 incremented to 8
+AP 2222 incremented to 9
+AP 2222 incremented to 10
+AP 2222 incremented to 11
+AP 2222 incremented to 12
+# 
+AP 3333 incremented to 1
+AP 3333 incremented to 2
+AP 3333 incremented to 3
+AP 3333 incremented to 4
+AP 3333 incremented to 5
+# 
+AP 4444 incremented to 1
+AP 4444 incremented to 2
+AP 4444 incremented to 3
+AP 4444 incremented to 4
+AP 4444 incremented to 5
+AP 4444 incremented to 6
+AP 4444 incremented to 7
+AP 4444 incremented to 8
+AP 4444 incremented to 9
+AP 4444 incremented to 10
+AP 4444 incremented to 11
+AP 4444 incremented to 12
+# 
+AP 5555 incremented to 1
+AP 5555 incremented to 2
+AP 5555 incremented to 3
+AP 5555 incremented to 4
+AP 5555 incremented to 5
+AP 5555 incremented to 6
+AP 5555 incremented to 7
+AP 5555 incremented to 8
+AP 5555 incremented to 9
+AP 5555 incremented to 10
+AP 5555 incremented to 11
+AP 5555 incremented to 12
+AP 5555 incremented to 13
+# 
+Leaderboard has 5 records
+0: mc: 13,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+1: mc: 12,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 12,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+3: mc: 5,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+4: mc: 5,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+5 mobiles registered with AP 1111
+12 mobiles registered with AP 2222
+5 mobiles registered with AP 3333
+12 mobiles registered with AP 4444
+13 mobiles registered with AP 5555
+# 
+# 
+# 
+# 
+# #####################################################################
+# #####################################################################
+# Test 5: Show that ADD handles correctly when the list is full or when list item already exists.
+# 
+Leaderboard list records:  5, Queue list records: 0
+Leaderboard has 5 records
+0: mc: 13,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+1: mc: 12,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 12,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+3: mc: 5,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+4: mc: 5,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Rejected 6666 because list is full with 5 entries
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Rejected 7777 because list is full with 5 entries
+# 
+Did not find access point with id: 6666
+Did not find access point with id: 7777
+# 
+Remove did not find: 6666
+Remove did not find: 7777
+# 
+Leaderboard list records:  5, Queue list records: 0
+Leaderboard has 5 records
+0: mc: 13,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+1: mc: 12,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 12,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+3: mc: 5,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+4: mc: 5,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+# 
+Removed: 5555
+mc: 13,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+# 
+Leaderboard list records:  4, Queue list records: 0
+Leaderboard has 4 records
+0: mc: 12,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+1: mc: 12,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+2: mc: 5,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+3: mc: 5,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+# 
+# 
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Rejected 1111 already in list
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Rejected 2222 already in list
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Rejected 3333 already in list
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Rejected 4444 already in list
+# 
+# 
+Leaderboard list records:  4, Queue list records: 0
+Leaderboard has 4 records
+0: mc: 12,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+1: mc: 12,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+2: mc: 5,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+3: mc: 5,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+Removed 4 stations
+# 
+# #####################################################################
+# #####################################################################
+# Test 6: JOINQ AND MOVEQTOL with empty list, partially full list, and full list
+# 
+# 
+Leaderboard list records:  0, Queue list records: 0
+Leaderboard is empty
+
+Queue is empty
+
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Appended to back of queue 1111
+# 
+Leaderboard list records:  0, Queue list records: 1
+Leaderboard is empty
+
+Queue has 1 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Appended to back of queue 2222
+# 
+Leaderboard list records:  0, Queue list records: 2
+Leaderboard is empty
+
+Queue has 2 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Appended to back of queue 3333
+# 
+Leaderboard list records:  0, Queue list records: 3
+Leaderboard is empty
+
+Queue has 3 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Appended to back of queue 4444
+# 
+Leaderboard list records:  0, Queue list records: 4
+Leaderboard is empty
+
+Queue has 4 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Appended to back of queue 5555
+# 
+Leaderboard list records:  0, Queue list records: 5
+Leaderboard is empty
+
+Queue has 5 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+4: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Appended to back of queue 6666
+# 
+Leaderboard list records:  0, Queue list records: 6
+Leaderboard is empty
+
+Queue has 6 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+4: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+5: mc: 0,eth: 6666, IP: 600, Loc: 606, Auth: T, Pri: none, L: b, B: 2.4, C: 6, R: 6 Time: 60
+
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Appended to back of queue 7777
+# 
+Leaderboard list records:  0, Queue list records: 7
+Leaderboard is empty
+
+Queue has 7 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+4: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+5: mc: 0,eth: 6666, IP: 600, Loc: 606, Auth: T, Pri: none, L: b, B: 2.4, C: 6, R: 6 Time: 60
+6: mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+
+# 
+Moved 1111
+# 
+Leaderboard list records:  1, Queue list records: 6
+Leaderboard has 1 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+
+Queue has 6 records
+0: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+1: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+2: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+3: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+4: mc: 0,eth: 6666, IP: 600, Loc: 606, Auth: T, Pri: none, L: b, B: 2.4, C: 6, R: 6 Time: 60
+5: mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+
+# 
+# 
+Moved 2222
+# 
+Leaderboard list records:  2, Queue list records: 5
+Leaderboard has 2 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+
+Queue has 5 records
+0: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+1: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+2: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+3: mc: 0,eth: 6666, IP: 600, Loc: 606, Auth: T, Pri: none, L: b, B: 2.4, C: 6, R: 6 Time: 60
+4: mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+
+# 
+# 
+Moved 3333
+# 
+Leaderboard list records:  3, Queue list records: 4
+Leaderboard has 3 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+Queue has 4 records
+0: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+1: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+2: mc: 0,eth: 6666, IP: 600, Loc: 606, Auth: T, Pri: none, L: b, B: 2.4, C: 6, R: 6 Time: 60
+3: mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+
+# 
+# 
+Moved 4444
+# 
+Leaderboard list records:  4, Queue list records: 3
+Leaderboard has 4 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+
+Queue has 3 records
+0: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+1: mc: 0,eth: 6666, IP: 600, Loc: 606, Auth: T, Pri: none, L: b, B: 2.4, C: 6, R: 6 Time: 60
+2: mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+
+# 
+# 
+Moved 5555
+# 
+Leaderboard list records:  5, Queue list records: 2
+Leaderboard has 5 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+4: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+Queue has 2 records
+0: mc: 0,eth: 6666, IP: 600, Loc: 606, Auth: T, Pri: none, L: b, B: 2.4, C: 6, R: 6 Time: 60
+1: mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+
+# 
+# 
+Move rejected 6666 because leaderboard is full with 5 entries
+# 
+Leaderboard list records:  5, Queue list records: 1
+Leaderboard has 5 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+3: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+4: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+
+Queue has 1 records
+0: mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+
+# 
+Removed 5 stations
+# 
+Leaderboard list records:  0, Queue list records: 1
+Leaderboard is empty
+
+Queue has 1 records
+0: mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+
+# 
+Moved 7777
+# 
+Leaderboard list records:  1, Queue list records: 0
+Leaderboard has 1 records
+0: mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+
+Queue is empty
+
+# 
+Removed 1 station
+# 
+Leaderboard list records:  0, Queue list records: 0
+Leaderboard is empty
+
+Queue is empty
+
+# 
+# #####################################################################
+# #####################################################################
+# Test 7: Show sorting function works with MOVEQTOL
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Appended to back of queue 1111
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Appended to back of queue 5555
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Appended to back of queue 7777
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Appended to back of queue 2222
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Appended to back of queue 4444
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Appended to back of queue 6666
+# 
+AP IP address:AP location code:Authenticated (T/F):Privacy (none|WEP|WPA|WPA2):Standard letter (a b e g h n s):Band (2.4|5.0):Channel:Data rate:Time received (int):
+Appended to back of queue 3333
+# 
+Leaderboard list records:  0, Queue list records: 7
+Leaderboard is empty
+
+Queue has 7 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+2: mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+3: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+4: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+5: mc: 0,eth: 6666, IP: 600, Loc: 606, Auth: T, Pri: none, L: b, B: 2.4, C: 6, R: 6 Time: 60
+6: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+Moved 1111
+Moved 5555
+Moved 7777
+# 
+Leaderboard list records:  3, Queue list records: 4
+Leaderboard has 3 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+2: mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+
+Queue has 4 records
+0: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+1: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+2: mc: 0,eth: 6666, IP: 600, Loc: 606, Auth: T, Pri: none, L: b, B: 2.4, C: 6, R: 6 Time: 60
+3: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+Moved 2222
+# 
+Leaderboard list records:  4, Queue list records: 3
+Leaderboard has 4 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+3: mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+
+Queue has 3 records
+0: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+1: mc: 0,eth: 6666, IP: 600, Loc: 606, Auth: T, Pri: none, L: b, B: 2.4, C: 6, R: 6 Time: 60
+2: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+Moved 4444
+# 
+Leaderboard list records:  5, Queue list records: 2
+Leaderboard has 5 records
+0: mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+1: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+2: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+3: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+4: mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+
+Queue has 2 records
+0: mc: 0,eth: 6666, IP: 600, Loc: 606, Auth: T, Pri: none, L: b, B: 2.4, C: 6, R: 6 Time: 60
+1: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+Removed: 1111
+mc: 0,eth: 1111, IP: 100, Loc: 101, Auth: T, Pri: none, L: a, B: 2.4, C: 1, R: 1 Time: 10
+# 
+Moved 6666
+# 
+Leaderboard list records:  5, Queue list records: 1
+Leaderboard has 5 records
+0: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+1: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+2: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+3: mc: 0,eth: 6666, IP: 600, Loc: 606, Auth: T, Pri: none, L: b, B: 2.4, C: 6, R: 6 Time: 60
+4: mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+
+Queue has 1 records
+0: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+Removed: 7777
+mc: 0,eth: 7777, IP: 700, Loc: 707, Auth: T, Pri: none, L: b, B: 2.4, C: 7, R: 7 Time: 70
+# 
+Leaderboard list records:  4, Queue list records: 1
+Leaderboard has 4 records
+0: mc: 0,eth: 2222, IP: 200, Loc: 202, Auth: T, Pri: none, L: b, B: 2.4, C: 2, R: 2 Time: 20
+1: mc: 0,eth: 4444, IP: 400, Loc: 404, Auth: T, Pri: none, L: b, B: 2.4, C: 4, R: 4 Time: 40
+2: mc: 0,eth: 5555, IP: 500, Loc: 505, Auth: T, Pri: none, L: b, B: 2.4, C: 5, R: 5 Time: 50
+3: mc: 0,eth: 6666, IP: 600, Loc: 606, Auth: T, Pri: none, L: b, B: 2.4, C: 6, R: 6 Time: 60
+
+Queue has 1 records
+0: mc: 0,eth: 3333, IP: 300, Loc: 303, Auth: T, Pri: none, L: b, B: 2.4, C: 3, R: 3 Time: 30
+
+# 
+Goodbye

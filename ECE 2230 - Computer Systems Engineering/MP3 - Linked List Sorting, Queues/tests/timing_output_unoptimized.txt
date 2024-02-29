@@ -1,0 +1,242 @@
+The date today is Sat Sep 30 06:00:48 PM EDT 2023		
+eth insertion sort with random list		
+1000	0.964000	1
+Goodbye
+4500	25.711000	1
+Goodbye
+6750	84.074000	1
+Goodbye
+9000	181.402000	1
+Goodbye
+13500	529.677000	1
+Goodbye
+18000	1078.169000	1
+Goodbye
+25000	2283.095000	1
+Goodbye
+mc insertion sort with random list		
+1000	0.878000	1
+Goodbye
+4500	25.535000	1
+Goodbye
+6750	78.238000	1
+Goodbye
+9000	179.996000	1
+Goodbye
+13500	509.137000	1
+Goodbye
+18000	1068.254000	1
+Goodbye
+25000	2267.628000	1
+Goodbye
+insertion sort with ascending list		
+1000	1.742000	1
+Goodbye
+4500	32.915000	1
+Goodbye
+6750	75.474000	1
+Goodbye
+9000	129.241000	1
+Goodbye
+13500	292.467000	1
+Goodbye
+18000	517.237000	1
+Goodbye
+25000	1002.743000	1
+Goodbye
+insertion sort with descending list		
+1000	0.040000	1
+Goodbye
+4500	0.145000	1
+Goodbye
+6750	0.491000	1
+Goodbye
+9000	0.284000	1
+Goodbye
+13500	0.419000	1
+Goodbye
+18000	0.556000	1
+Goodbye
+25000	0.839000	1
+Goodbye
+eth recursive selection sort with random list		
+1000	1.820000	2
+Goodbye
+4500	34.604000	2
+Goodbye
+6750	83.591000	2
+Goodbye
+9000	156.374000	2
+Goodbye
+13500	369.300000	2
+Goodbye
+18000	671.971000	2
+Goodbye
+25000	1309.645000	2
+Goodbye
+mc recursive selection sort with random list		
+1000	1.767000	2
+Goodbye
+4500	35.130000	2
+Goodbye
+6750	85.266000	2
+Goodbye
+9000	155.361000	2
+Goodbye
+13500	377.132000	2
+Goodbye
+18000	665.884000	2
+Goodbye
+25000	1304.419000	2
+Goodbye
+recursive selection sort with ascending list		
+1000	1.697000	2
+Goodbye
+4500	34.482000	2
+Goodbye
+6750	75.457000	2
+Goodbye
+9000	134.291000	2
+Goodbye
+13500	300.702000	2
+Goodbye
+18000	528.695000	2
+Goodbye
+25000	1011.377000	2
+Goodbye
+recursive selection sort with descending list		
+1000	2.093000	2
+Goodbye
+4500	34.506000	2
+Goodbye
+6750	76.654000	2
+Goodbye
+9000	138.313000	2
+Goodbye
+13500	302.568000	2
+Goodbye
+18000	537.152000	2
+Goodbye
+25000	1051.464000	2
+Goodbye
+eth iterative selection sort with random list		
+1000	1.758000	3
+Goodbye
+4500	34.967000	3
+Goodbye
+6750	86.569000	3
+Goodbye
+9000	155.052000	3
+Goodbye
+13500	365.932000	3
+Goodbye
+18000	669.320000	3
+Goodbye
+25000	1311.048000	3
+Goodbye
+mc iterative selection sort with random list		
+1000	1.634000	3
+Goodbye
+4500	33.392000	3
+Goodbye
+6750	82.185000	3
+Goodbye
+9000	154.609000	3
+Goodbye
+13500	368.112000	3
+Goodbye
+18000	660.862000	3
+Goodbye
+25000	1304.981000	3
+Goodbye
+iterative selection sort with ascending list		
+1000	1.547000	3
+Goodbye
+4500	33.379000	3
+Goodbye
+6750	73.732000	3
+Goodbye
+9000	132.717000	3
+Goodbye
+13500	292.279000	3
+Goodbye
+18000	524.123000	3
+Goodbye
+25000	1002.264000	3
+Goodbye
+iterative selection sort with descending list		
+1000	1.642000	3
+Goodbye
+4500	32.727000	3
+Goodbye
+6750	75.792000	3
+Goodbye
+9000	136.887000	3
+Goodbye
+13500	304.832000	3
+Goodbye
+18000	538.248000	3
+Goodbye
+25000	1034.721000	3
+Goodbye
+eth merge sort with random list		
+18000	13.507000	4
+Goodbye
+150000	168.861000	4
+Goodbye
+300000	373.786000	4
+Goodbye
+450000	592.680000	4
+Goodbye
+600000	841.660000	4
+Goodbye
+750000	1132.768000	4
+Goodbye
+1000000	1588.284000	4
+Goodbye
+mc merge sort with random list		
+18000	15.853000	4
+Goodbye
+150000	158.912000	4
+Goodbye
+300000	365.542000	4
+Goodbye
+450000	608.480000	4
+Goodbye
+600000	832.612000	4
+Goodbye
+750000	1120.990000	4
+Goodbye
+1000000	1547.530000	4
+Goodbye
+merge sort with ascending list		
+18000	13.376000	4
+Goodbye
+150000	103.049000	4
+Goodbye
+300000	214.372000	4
+Goodbye
+450000	333.504000	4
+Goodbye
+600000	458.462000	4
+Goodbye
+750000	574.593000	4
+Goodbye
+1000000	772.848000	4
+Goodbye
+merge sort with descending list		
+18000	10.588000	4
+Goodbye
+150000	104.790000	4
+Goodbye
+300000	219.287000	4
+Goodbye
+450000	341.519000	4
+Goodbye
+600000	456.280000	4
+Goodbye
+750000	575.801000	4
+Goodbye
+1000000	772.188000	4
+Goodbye
+end		

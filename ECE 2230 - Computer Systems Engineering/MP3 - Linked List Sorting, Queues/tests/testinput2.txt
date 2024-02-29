@@ -1,0 +1,46 @@
+
+TEST 1:  Add 8 entries to list and merge sort.  
+
+APPENDQ 333 3333
+APPENDQ 111 111
+APPENDQ 222 2223
+APPENDQ 332 1234
+APPENDQ 555 156
+APPENDQ 123 156
+APPENDQ 123 556
+APPENDQ 888 987
+APPENDQ 1234 5555
+APPENDQ 987 111
+ 
+STATS
+PRINTQ
+
+Insertion Sort - ETH
+SORTETH 1
+PRINTQ
+Insertion Sort - AP
+SORTAP 1
+PRINTQ
+
+Selection Sort: Recursive - ETH
+SORTETH 2
+PRINTQ
+Selection Sort: Recursive - AP
+SORTAP 2
+PRINTQ
+
+Selection Sort: Iterative - ETH
+SORTETH 3
+PRINTQ
+Selection Sort: Iterative - AP
+SORTAP 3
+PRINTQ
+
+Merge Sort - ETH
+SORTETH 4
+PRINTQ
+Merge Sort - AP
+SORTAP 4
+PRINTQ
+QUIT
+

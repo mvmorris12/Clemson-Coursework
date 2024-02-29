@@ -1,0 +1,15 @@
+The date today is Sun Oct  1 12:43:11 PM EDT 2023		
+eth insertion sort with random list		
+150000	245778.097000	1
+Goodbye
+mc insertion sort with random list		
+150000	240991.239000	1
+Goodbye
+insertion sort with ascending list		
+150000	40784.870000	1
+Goodbye
+insertion sort with descending list		
+150000	6.625000	1
+Goodbye
+eth recursive selection sort with random list		
+mc recursive selection sort with random list		
